@@ -1,8 +1,8 @@
-# Blog Content of [琳.tw](https://琳.tw)
+# Blog Content of [聆.tw](https://聆.tw)
 
-![Health Check](https://cronitor.io/badges/iZnpfC/production/Q90Ln0QlxPPwcWipMHw3TrKN8Bw.svg) ![Website](https://img.shields.io/website?url=https%3A%2F%2Fxn--jgy.tw%2F) ![GitHub branch check runs](https://img.shields.io/github/check-runs/jim60105/blog/master?label=Deploy)
+![Health Check](https://cronitor.io/badges/iZnpfC/production/Q90Ln0QlxPPwcWipMHw3TrKN8Bw.svg) ![Website](https://img.shields.io/website?url=https%3A%2F%2Fxn--uy0a.tw%2F) ![GitHub branch check runs](https://img.shields.io/github/check-runs/jim60105/ai-talks/master?label=Deploy)
 
-This is the blog content of [琳.tw](https://琳.tw). Check the [jim60105/blog repository](https://github.com/jim60105/blog) for more details.
+This is the blog content of [聆.tw](https://聆.tw). Check the [jim60105/ai-talks repository](https://github.com/jim60105/ai-talks) for more details.
 
 ## LICENSE
 

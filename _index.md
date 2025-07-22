@@ -1,5 +1,5 @@
 +++
-title = "琳的備忘手札"
+title = "琳聽 AI 漫談"
 
 # A draft section is only loaded if the `--drafts` flag is passed to `zola build`, `zola serve` or `zola check`.
 draft = false
@@ -60,11 +60,7 @@ transparent = false
 
 # Use aliases if you are moving content but want to redirect previous URLs to the
 # current one. This takes an array of paths, not URLs.
-aliases = [
-    "/search/label/資訊科技",
-    "/search/label/備忘",
-    "/search/label/香蕉派%20bananapi"
-]
+aliases = []
 
 # If set to "true", feed files will be generated for this section at the
 # section's root path. This is independent of the site-wide variable of the same
