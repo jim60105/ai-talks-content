@@ -1,8 +1,8 @@
 +++
-title = "聊天對話框 Shortcode 示範"
-description = "展示新的 chat shortcode 功能，包含多種 AI 工具和使用者的對話範例"
+title = "Shortcode 示範頁面"
+description = "展示各種 shortcode 功能，包含聊天對話框、編按、顏色標記等實用元件"
 date = "2025-07-23T18:30:19.062Z"
-updated = "2025-07-23T18:30:20.902Z"
+updated = "2025-07-24T02:00:00.000Z"
 draft = true
 
 [taxonomies]
@@ -10,10 +10,52 @@ tags = []
 licenses = [ "GFDL 1.3" ]
 +++
 
-聊天對話框 Shortcode 示範
-這個頁面展示新實作的 chat shortcode 功能，可以用來顯示與各種 AI 工具的對話過程。
+這個頁面展示各種自訂 shortcode 功能，讓你了解如何在文章中使用這些實用的元件。
 
-## 基本使用範例
+## 編按 (Editorial Note)
+
+「編按」shortcode 用於顯示編輯者的補充說明或備註，適合用於資料更新說明、版本變更註記等。
+
+### 基本使用
+
+```markdown
+{% editor_note() %}
+編輯者的備註內容
+{% end %}
+```
+
+### 展示範例
+
+{% editor_note() %}
+這篇文章是根據 2024 年的資料整理而成，部分數據可能已有所變動，請以最新官方資訊為準。
+{% end %}
+
+{% editor_note() %}
+本段落的程式碼範例已更新至最新版本的 API，舊版本使用者請注意相容性問題。
+{% end %}
+
+{% editor_note() %}
+編按也支援 **Markdown** 格式，包含：
+
+- 列表項目
+- *斜體文字*
+- `程式碼片段`
+- [連結](https://example.com)
+
+這讓編輯說明更加豐富和實用。
+{% end %}
+
+## 聊天對話框 (Chat Dialogue)
+
+聊天對話框 shortcode 用於顯示與各種 AI 工具的對話過程，提供清楚的說話者識別和美觀的訊息氣泡。
+
+### 使用語法
+
+```markdown
+{% chat(speaker="chatgpt") %}
+對話內容
+{% end %}
+```
 
 ### 與 ChatGPT 的對話
 
@@ -187,6 +229,32 @@ ml_project/
 
 {% end %}
 
+## 其他實用 Shortcode
+
+### 色彩標記
+
+我們提供幾個便捷的色彩標記 shortcode：
+
+{% cr() %}
+這是紅色文字，通常用於錯誤或警告
+{% end %}
+
+{% cg() %}
+這是綠色文字，通常用於成功或正確資訊
+{% end %}
+
+### 隱藏內容
+
+使用 spoiler 功能來隱藏劇透內容：
+
+{% ch() %}
+這是隱藏的內容，滑鼠移過才會顯示
+{% end %}
+
+### 自訂顏色
+
+{{ color(body="這段文字是橘色的", color="orange") }}
+
 ---
 
-這個示範頁面展示了 chat shortcode 的各種使用情境和功能特色。無論是簡短的問答，還是複雜的技術討論，都能以直觀的對話形式呈現。
+這個示範頁面展示了各種 shortcode 的使用情境和功能特色。無論是編輯備註、對話展示，還是文字樣式標記，都能讓你的文章更加豐富和易讀。
