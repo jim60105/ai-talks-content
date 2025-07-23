@@ -2,11 +2,11 @@
 title = "Shortcode 示範頁面"
 description = "展示各種 shortcode 功能，包含聊天對話框、編按、顏色標記等實用元件"
 date = "2025-07-23T18:30:19.062Z"
-updated = "2025-07-24T02:00:00.000Z"
+updated = "2025-07-23T19:07:18.316Z"
 draft = true
 
 [taxonomies]
-tags = []
+tags = [ ]
 licenses = [ "GFDL 1.3" ]
 +++
 
@@ -19,9 +19,9 @@ licenses = [ "GFDL 1.3" ]
 ### 基本使用
 
 ```markdown
-{% editor_note() %}
+{%/* editor_note() */%}
 編輯者的備註內容
-{% end %}
+{%/* end */%}
 ```
 
 ### 展示範例
@@ -52,9 +52,9 @@ licenses = [ "GFDL 1.3" ]
 ### 使用語法
 
 ```markdown
-{% chat(speaker="chatgpt") %}
+{%/* chat(speaker="chatgpt") */%}
 對話內容
-{% end %}
+{%/* end */%}
 ```
 
 ### 與 ChatGPT 的對話
