@@ -9,20 +9,10 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Emit repository_dispatch
+        uses: mvasigh/dispatch-action@main
         with:
-          repository: jim60105/ai-talks
-          ref: master
-          submodules: true
-
-      - name: Install asdf & tools
-        uses: asdf-vm/actions/install@v4
-        with:
-          tool_versions: zola ${{ vars.ZOLA_VERSION }}
-
-      - name: Build & Deploy Worker
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          wranglerVersion: "latest"
+          # You should create a personal access token and store it in your repository
+          token: ${{ secrets.CR_PAT }}
+          repo: blog
+          event_type: deploy
