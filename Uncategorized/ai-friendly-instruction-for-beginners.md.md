@@ -49,7 +49,7 @@ withAI = "<https://felo.ai/search/6XFWRFWZu5qLtDqRUS5Ejs?invite=dOLYGeJyZJqVX>"
    - 在 D 槽內，右鍵點選空白處，選擇 `新增` > `資料夾`，並命名為 `ytarchive`。接著點進這個新資料夾。
 
 4. **開啟 CMD（命令提示字元）**：
-   - 在檔案總管的網址列中，點選並輸入 `cmd`，然後按下 `Enter`。這將在 D:\ytarchive 目錄中開啟命令提示字元[1]。
+   - 在檔案總管的網址列中，點選並輸入 `cmd`，然後按下 `Enter`。這將在 D:\ytarchive 目錄中開啟命令提示字元[^1]。
 
 ### 3. 執行 `ytarchive` 指令
 
@@ -88,3 +88,5 @@ ytarchive -w [url] best
 透過上述步驟，應該能夠順利地在 D 槽下開啟命令提示字元、執行 `ytarchive -w [url] best` 指令，並判斷該指令是否成功運行。如果遇到任何問題，請重新檢查每步操作，或者尋求更多技術支援。
 
 希望這個教學能夠幫助你順利完成任務！
+
+[^1]: [如何在 CMD 輸出 log 檔 | AnnKuoQ Blog](https://annkuoq.github.io/blog/2020-12-25-how-to-save-windows-cmd-logfile/)
