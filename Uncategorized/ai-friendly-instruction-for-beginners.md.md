@@ -6,7 +6,7 @@ updated = "2025-07-25T07:55:03.924Z"
 draft = false
 
 [taxonomies]
-tags = [ ]
+tags = [ "AI 搜尋" ]
 providers = [ "Felo Search" ]
 licenses = [ "GFDL 1.3" ]
 
