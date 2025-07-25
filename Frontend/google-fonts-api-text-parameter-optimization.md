@@ -59,6 +59,10 @@ explain the "text" parameters here and give me the references
 
 這些參數的使用可以顯著提升網頁的性能，特別是在需要使用大量自定義字體的情況下。
 
+{% editor_note() %}
+上面第三項參考資料是 AI 幻覺，它瞎掰的。
+{% end %}
+
 [^1]: [How to use the text parameter with the google fonts API for just one font type - Stack Overflow](https://stackoverflow.com/questions/59521701/how-to-use-the-text-parameter-with-the-google-fonts-api-for-just-one-font-type)
 [^6]: [Support _text_ parameter for font queries · Issue #36 · nuxt-modules_google-fonts](https://github.com/nuxt-community/google-fonts-module/issues/36)
 [^9]: [Get Started with the Google Fonts API | Google for Developers](https://developers.google.com/fonts/docs/getting_started)
