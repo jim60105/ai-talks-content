@@ -2,7 +2,7 @@
 title = "Flatpak 如何讓應用讀取系統程序？TL;DR: 不行。"
 description = "Flatpak 沙盒機制下，應用預設無法讀取系統程序列表。即使透過權限設定（如 --filesystem=host 或 Flatseal）開放 /proc 存取，仍可能因沙盒限制無法達成需求。本文說明原因、權限調整方式及其侷限，並建議如需此功能可考慮非 Flatpak 版本。"
 date = "2025-03-01T00:00:00Z"
-updated = "2025-07-27T09:26:29.133Z"
+updated = "2025-07-27T13:12:23.739Z"
 draft = false
 
 [taxonomies]
@@ -18,9 +18,7 @@ withAI = "<https://felo.ai/search/FL3rE5r6spxkdLhC9wGsZg?invite=dOLYGeJyZJqVX>"
 +++
 {% editor_note() %}
 問這個問題是因為我想要讓 Discord Flatpak 版能抓到運行中的遊戲，然而並沒有弄成功。  
-若有人成功了希望能跟我分享一下，我很樂意更新這篇文章。
-
-請閱讀[這篇 issue](https://github.com/flatpak/flatpak/issues/3922) 了解更多。
+若有人成功了希望能在下方回覆區跟我分享一下，我非常想知道。
 {% end %}
 
 {% chat(speaker="jim") %}
@@ -79,6 +77,10 @@ flatpak override --filesystem=/proc 應用程式ID
 4. 開放過多權限會降低 Flatpak 的安全性優勢，請謹慎評估是否真的需要此權限[^21]
 
 如果您能分享您具體需要哪個應用程式讀取系統程序列表，可能會有更具體的解決方案。
+
+{% editor_note() %}
+請閱讀[這篇 issue](https://github.com/flatpak/flatpak/issues/3922) 了解更多。
+{% end %}
 
 [^1]: [使用Flatpak安裝Linux軟體，最常遇到的就是權限問題了 ...](https://www.threads.net/@ivonhuang_ig/post/DC8dksYT0xR/%E4%BD%BF%E7%94%A8flatpak%E5%AE%89%E8%A3%9Dlinux%E8%BB%9F%E9%AB%94%E6%9C%80%E5%B8%B8%E9%81%87%E5%88%B0%E7%9A%84%E5%B0%B1%E6%98%AF%E6%AC%8A%E9%99%90%E5%95%8F%E9%A1%8C%E4%BA%86flatpak%E9%A0%90%E8%A8%AD%E6%98%AF%E6%B2%99%E7%9B%92%E9%9A%94%E9%9B%A2%E7%9A%84%E5%81%87%E8%A8%ADflatpak%E8%BB%9F%E9%AB%94%E6%B2%92%E6%9C%89%E8%80%83%E6%85%AE%E5%A5%BD%E6%AC%8A%E9%99%90%E8%A8%AD%E8%A8%88%E9%82%A3%E5%B0%B1%E6%9C%83%E6%9C%89%E7%89%B9%E5%AE%9A%E7%9B%AE%E9%8C%84%E7%9A%84%E6%AA%94%E6%A1%88%E7%84%A1%E6%B3%95%E8%AE%80%E5%8F%96)
 [^6]: [無法開啟檔案？用Flatseal調整Linux Flatpak應用程式權限 ...](https://ivonblog.com/posts/flatseal-flatpak-permission/)
