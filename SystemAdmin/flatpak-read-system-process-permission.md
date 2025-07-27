@@ -12,6 +12,9 @@ licenses = [ "GFDL 1.3" ]
 
 [extra]
 withAI = "<https://felo.ai/search/FL3rE5r6spxkdLhC9wGsZg?invite=dOLYGeJyZJqVX>"
+
+  [extra.comments]
+  id = "114924536011258063"
 +++
 {% editor_note() %}
 問這個問題是因為我想要讓 Discord Flatpak 版能抓到運行中的遊戲，然而並沒有弄成功。  
