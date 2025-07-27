@@ -6,14 +6,14 @@ updated = "2025-07-27T14:37:38.082Z"
 draft = false
 
 [taxonomies]
-tags = [ "Cryptocurrency" ]
+tags = [ "Cryptocurrency", "AI 搜尋" ]
 providers = [ "Felo Search" ]
 licenses = [ "GFDL 1.3" ]
 
 [extra]
 withAI = "<https://felo.ai/search/Kuw9JC55gKsAqJbk65zNhy?invite=dOLYGeJyZJqVX>"
 disclaimer = "所有資訊內容僅供使用者作為參考之用途，不構成任何個人之意見或判斷，亦不構成任何投資建議，本人亦不保證其各項資訊內容之完整性、即時性及精確性。"
-archive = "本文內容是四月當時的情況，已過時，請參考它的資料整理能力就好。"
+archive = "本文內容是四月當時的情況，已過時。"
 +++
 {% editor_note() %}
 四月時 BTC 突然漲了一波，我完全不曉得為什麼。在自己做功課之前先讓 AI 幫我節省時間。
