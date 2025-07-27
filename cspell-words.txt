@@ -1,5 +1,6 @@
 datetime
 figcaption
+gitmodules
 grayscale
 Iansui
 katex
