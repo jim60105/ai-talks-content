@@ -6,7 +6,7 @@ updated = "2025-07-27T14:37:38.082Z"
 draft = false
 
 [taxonomies]
-tags = [ "Cryptocurrency", "AI 搜尋" ]
+tags = [ "Cryptocurrency", "Prompt Engineering" ]
 providers = [ "Felo Search" ]
 licenses = [ "GFDL 1.3" ]
 

@@ -6,9 +6,9 @@ updated = "2025-07-25T09:32:11.425Z"
 draft = false
 
 [taxonomies]
-tags = ["AI 搜尋"]
-providers = ["Felo Search"]
-licenses = ["GFDL 1.3"]
+tags = [ "Prompt Engineering" ]
+providers = [ "Felo Search" ]
+licenses = [ "GFDL 1.3" ]
 
 [extra]
 withAI = "<https://felo.ai/search/UyX9p4obmzJ3eUZtvre7pw?invite=dOLYGeJyZJqVX>"
