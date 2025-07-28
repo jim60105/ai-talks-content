@@ -6,7 +6,7 @@ updated = "2025-07-27T12:49:03.774Z"
 draft = false
 
 [taxonomies]
-tags = [ "uv", "Python" ]
+tags = [ "Python", "uv", "Package Manager" ]
 providers = [ "Felo Search" ]
 licenses = [ "GFDL 1.3" ]
 

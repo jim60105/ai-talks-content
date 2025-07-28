@@ -1,6 +1,6 @@
 +++
-title = "Fedora 下 Git 換行符一致性設定全攻略"
-description = "跨平台開發常遇換行符混亂問題，本文教你如何在 Fedora 下設定 Git，確保 checkout 與 commit 都維持 LF 格式。透過 .gitattributes 及本地組態，讓團隊協作更順暢。立即掌握正確設定流程！"
+title = "Linux 下 Git 換行符一致性設定全攻略"
+description = "跨平台開發常遇換行符混亂問題，本文教你如何在 Linux 下設定 Git，確保 checkout 與 commit 都維持 LF 格式。透過 .gitattributes 及本地組態，讓團隊協作更順暢。立即掌握正確設定流程！"
 date = "2025-05-01T00:00:00Z"
 updated = "2025-07-27T15:40:21Z"
 draft = false

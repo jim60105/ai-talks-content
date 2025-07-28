@@ -6,7 +6,7 @@ updated = "2025-07-27T17:00:58Z"
 draft = false
 
 [taxonomies]
-tags = [ ]
+tags = [ "npm", "pnpm", "Package Manager" ]
 providers = [ "Felo Search" ]
 licenses = [ "GFDL 1.3" ]
 
