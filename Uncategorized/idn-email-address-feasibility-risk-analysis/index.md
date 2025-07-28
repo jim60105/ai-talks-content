@@ -6,12 +6,15 @@ updated = "2025-07-28T14:30:01Z"
 draft = false
 
 [taxonomies]
-tags = [ ]
+tags = [ "Domain" ]
 providers = [ "Felo Search" ]
 licenses = [ "GFDL 1.3" ]
 
 [extra]
 withAI = "<https://felo.ai/search/asDBVL3ayHwqbatyLbNbQS?invite=dOLYGeJyZJqVX>"
+
+  [extra.comments]
+  id = "114931637121182345"
 +++
 {% editor_note() %}
 你現在看到的頁面「聆.tw」就是中文網域喔！中文網域在瀏覧器上的支援度很好，但是在電子郵件系統上仍有待加強。
