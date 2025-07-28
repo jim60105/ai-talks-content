@@ -6,7 +6,7 @@ updated = "2025-07-25T17:29:43.187Z"
 draft = false
 
 [taxonomies]
-tags = [ "Cryptocurrency" ]
+tags = [ "BTC", "Cryptocurrency", "ETH" ]
 providers = [ "Felo Search" ]
 licenses = [ "GFDL 1.3" ]
 
