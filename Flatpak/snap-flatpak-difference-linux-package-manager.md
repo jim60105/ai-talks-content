@@ -6,7 +6,7 @@ updated = "2025-07-25T18:09:26.113Z"
 draft = false
 
 [taxonomies]
-tags = [ "Linux", "Flatpak" ]
+tags = [ "Flatpak", "Linux", "Package Manager" ]
 providers = [ "Felo Search" ]
 licenses = [ "GFDL 1.3" ]
 

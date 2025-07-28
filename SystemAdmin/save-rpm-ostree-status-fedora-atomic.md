@@ -6,7 +6,7 @@ updated = "2025-07-25T13:59:37.656Z"
 draft = false
 
 [taxonomies]
-tags = [ "RHEL/Fedora", "System Admin", "Linux" ]
+tags = [ "Linux", "RHEL/Fedora", "System Admin", "Package Manager" ]
 providers = [ "Felo Search" ]
 licenses = [ "GFDL 1.3" ]
 
