@@ -6,7 +6,7 @@ updated = "2025-07-28T04:22:20.194Z"
 draft = false
 
 [taxonomies]
-tags = [ "Prompt Engineering", "Design Pattern" ]
+tags = [ "Backend", "Kotlin", "Database", "Design Pattern", "Prompt Engineering" ]
 providers = [ "Felo Search" ]
 licenses = [ "GFDL 1.3" ]
 

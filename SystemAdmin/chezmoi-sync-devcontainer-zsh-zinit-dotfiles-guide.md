@@ -6,7 +6,7 @@ updated = "2025-07-28T05:03:42Z"
 draft = false
 
 [taxonomies]
-tags = [ "Zsh" ]
+tags = [ "Zsh", "DevOps" ]
 providers = [ "Felo Search" ]
 licenses = [ "GFDL 1.3" ]
 

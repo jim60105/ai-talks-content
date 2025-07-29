@@ -6,7 +6,7 @@ updated = "2025-07-28T04:47:20Z"
 draft = false
 
 [taxonomies]
-tags = [ ]
+tags = [ "Database" ]
 providers = [ "Felo Search" ]
 licenses = [ "GFDL 1.3" ]
 

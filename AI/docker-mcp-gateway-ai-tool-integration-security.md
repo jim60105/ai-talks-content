@@ -6,7 +6,7 @@ updated = "2025-07-27T16:33:37.460Z"
 draft = false
 
 [taxonomies]
-tags = [ "Docker", "Container" ]
+tags = [ "Docker", "Container", "LLM" ]
 providers = [ "Felo Search" ]
 licenses = [ "GFDL 1.3" ]
 
