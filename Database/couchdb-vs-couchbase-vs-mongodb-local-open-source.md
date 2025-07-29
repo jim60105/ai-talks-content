@@ -1,7 +1,7 @@
 +++
 title = "CouchDB、Couchbase 與 MongoDB 本地部署全方位比較"
 description = "深入解析 CouchDB、Couchbase（社群自架）與 MongoDB 的架構差異、查詢能力與同步機制。針對開源專案本地部署需求，協助你選出最適合的 NoSQL 資料庫。點擊了解三者的優缺點與選型建議！"
-date = "2025-05-01T00:00:00Z"
+date = "2025-05-28T17:44:11Z"
 updated = "2025-07-28T04:47:20Z"
 draft = false
 

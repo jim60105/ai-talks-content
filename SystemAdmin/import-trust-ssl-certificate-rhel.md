@@ -1,7 +1,7 @@
 +++
 title = "RHEL 匯入並信任 SSL 憑證教學（含 .crt 檔操作步驟）"
 description = "詳細教學如何在 Red Hat Enterprise Linux（RHEL）系統中匯入 .crt 憑證並設為信任，包括安裝 ca-certificates、複製憑證、更新信任存儲與驗證步驟，適用於 SSL/TLS 應用。"
-date = "2025-01-01T00:00:00Z"
+date = "2025-01-15T07:57:11Z"
 updated = "2025-07-25T17:09:41.270Z"
 draft = false
 

@@ -1,7 +1,7 @@
 +++
 title = "Kotlin 資料存取設計：Unit of Work 與 Repository 模式實戰"
 description = "深入解析 Unit of Work 與 Repository Pattern 的核心概念與協同運作，並以 Kotlin ORM 框架實作為例。帶你了解如何打造高一致性、易維護的資料存取層。適合想提升系統架構設計的開發者。"
-date = "2025-05-01T00:00:00Z"
+date = "2025-05-25T10:21:35Z"
 updated = "2025-07-28T04:22:20.194Z"
 draft = false
 

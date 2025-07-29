@@ -1,7 +1,7 @@
 +++
 title = "Podman 容器內查詢 PostgreSQL 所有帳號與權限設定教學"
 description = "教你如何在 Podman 容器中，使用指令查詢 PostgreSQL 資料庫所有帳號（role）與權限設定，完整步驟與注意事項，適用於容器化資料庫管理與權限稽核需求。"
-date = "2025-01-01T00:00:00Z"
+date = "2025-01-07T09:26:45Z"
 updated = "2025-07-25T16:12:17.032Z"
 draft = false
 

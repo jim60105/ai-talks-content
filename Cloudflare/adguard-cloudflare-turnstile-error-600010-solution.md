@@ -1,7 +1,7 @@
 +++
 title = "AdGuard 導致 Cloudflare Turnstile 600010 錯誤原因與解法"
 description = "你是否遇過 Cloudflare Turnstile 出現 600010 錯誤？本文解析 AdGuard 攔截機制如何影響驗證流程，並提供實用的排解步驟。讓你輕鬆解決驗證失敗的困擾！"
-date = "2025-06-01T00:00:00Z"
+date = "2025-06-11T15:46:35Z"
 updated = "2025-07-28T10:26:11Z"
 draft = false
 

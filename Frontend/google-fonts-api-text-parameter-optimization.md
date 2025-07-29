@@ -1,7 +1,7 @@
 +++
 title = "Google Fonts API text 參數優化：減少字體檔案大小提升網頁載入速度"
 description = "深入解析 Google Fonts API 中 text 參數的使用方法，透過指定特定字符來減少字體檔案大小，大幅提升網頁載入效能。同時分享如何運用 Felo Search AI 搜尋引擎快速找到技術文件與參考資料。"
-date = "2024-08-01T00:00:00Z"
+date = "2024-08-27T08:16:25Z"
 updated = "2025-07-25T09:32:11.425Z"
 draft = false
 

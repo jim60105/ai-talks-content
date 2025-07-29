@@ -1,7 +1,7 @@
 +++
 title = "Linux Shell：如何將 echo 輸出導向錯誤（stderr）"
 description = "教你在 Linux Shell（sh/bash/zsh）中，如何用 echo 指令將訊息輸出到標準錯誤（stderr），並包含腳本範例與錯誤訊息處理技巧。"
-date = "2024-12-01T00:00:00Z"
+date = "2024-12-30T02:46:00Z"
 updated = "2025-07-25T14:58:42.017Z"
 draft = false
 

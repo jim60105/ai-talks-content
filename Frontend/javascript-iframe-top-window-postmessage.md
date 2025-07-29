@@ -1,7 +1,7 @@
 +++
 title = "JavaScript 跨窗溝通：iframe 與 top window 雙向傳訊實作"
 description = "想知道如何讓 iframe 與 top window 之間安全地互相傳遞訊息並執行程式碼嗎？本文將帶你了解 postMessage 的正確用法與安全注意事項。掌握這些技巧，讓你的前端開發更靈活！"
-date = "2025-05-01T00:00:00Z"
+date = "2025-05-02T18:50:29Z"
 updated = "2025-07-27T15:25:38Z"
 draft = false
 

@@ -1,7 +1,7 @@
 +++
 title = "Rust 程式碼覆蓋率工具大比拼：cargo llvm-cov 與 cargo-tarpaulin"
 description = "深入比較 cargo llvm-cov 與 cargo-tarpaulin 的技術特色、平台支援與覆蓋率準確性。解析兩者的適用情境與選擇建議。想知道哪個工具更適合你的 Rust 專案嗎？"
-date = "2025-06-01T00:00:00Z"
+date = "2025-06-07T13:48:40Z"
 updated = "2025-07-28T10:14:06Z"
 draft = false
 

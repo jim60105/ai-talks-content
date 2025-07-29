@@ -1,7 +1,7 @@
 +++
 title = "OCI Image Format 為什麼不支援 HEALTHCHECK？最佳實踐與替代方案"
 description = "深入解析 OCI Image Format 不支援 HEALTHCHECK 的設計理念與技術考量，並整理在 Kubernetes、Podman 等環境下的健康檢查最佳實踐與替代方案。"
-date = "2025-01-01T00:00:00Z"
+date = "2025-01-09T03:29:16Z"
 updated = "2025-07-25T16:25:39.568Z"
 draft = false
 

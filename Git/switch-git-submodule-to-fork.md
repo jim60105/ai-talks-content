@@ -1,7 +1,7 @@
 +++
 title = "3 步驟快速切換 Git 子模組到另一個 Fork 儲存庫"
 description = "只需編輯 .gitmodules、同步並更新，就能讓子模組指向你的 fork，完整流程一次看懂！"
-date = "2025-04-01T00:00:00Z"
+date = "2025-04-07T12:50:19Z"
 updated = "2025-07-27T12:21:08.522Z"
 draft = false
 

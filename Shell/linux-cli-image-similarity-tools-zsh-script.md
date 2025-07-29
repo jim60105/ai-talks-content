@@ -1,7 +1,7 @@
 +++
 title = "Linux CLI 圖像相似度比對工具推薦與 zsh 腳本實作"
 description = "想在 Linux CLI 下找出相似度 95% 以上的圖片嗎？本文精選多款圖像比對工具，並附上 zsh 腳本範例，助您高效管理大量圖片。"
-date = "2025-07-01T00:00:00Z"
+date = "2025-07-16T02:55:03Z"
 updated = "2025-07-28T17:19:25.730Z"
 draft = false
 

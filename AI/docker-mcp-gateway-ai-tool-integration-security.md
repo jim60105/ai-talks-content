@@ -1,7 +1,7 @@
 +++
 title = "Docker MCP Gateway：AI 工具整合新世代閘道"
 description = "探索 Docker MCP Gateway 如何成為 AI 代理與外部工具整合的統一入口，並帶來安全性與管理效率的提升。深入解析其創新機制與生態系統整合。想知道如何簡化 AI 工具部署與管理？點擊深入了解！"
-date = "2025-05-01T00:00:00Z"
+date = "2025-05-14T19:22:47Z"
 updated = "2025-07-27T16:33:37.460Z"
 draft = false
 

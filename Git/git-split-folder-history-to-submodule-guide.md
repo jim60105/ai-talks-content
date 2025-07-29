@@ -1,7 +1,7 @@
 +++
 title = "一步步拆分 Git 資料夾歷史並轉換為 Submodule 指南"
 description = "想將專案中的某個資料夾獨立成 Git Submodule？本指南詳解如何分離 commit 歷史、建立新倉庫並無縫導入主專案。掌握 subtree split、filter-repo 與日常管理技巧！"
-date = "2025-06-01T00:00:00Z"
+date = "2025-05-31T17:07:16Z"
 updated = "2025-07-28T09:01:25Z"
 draft = false
 

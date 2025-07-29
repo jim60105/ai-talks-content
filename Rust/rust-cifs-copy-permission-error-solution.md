@@ -1,7 +1,7 @@
 +++
 title = "Rust 複製檔案到 CIFS 共享遇到權限錯誤的真正原因"
 description = "即使關閉 SELinux，Rust 程式仍在 CIFS 掛載目錄遇到 Operation not permitted 錯誤。本文深入解析 `std::fs::copy` 在網路檔案系統上的限制，並提供安全可靠的解決方法。想知道如何讓檔案順利寫入 CIFS 嗎？"
-date = "2025-06-01T00:00:00Z"
+date = "2025-06-16T23:29:21Z"
 updated = "2025-07-28T11:39:31Z"
 draft = false
 

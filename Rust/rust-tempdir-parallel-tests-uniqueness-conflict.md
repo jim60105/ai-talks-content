@@ -1,7 +1,7 @@
 +++
 title = "Rust 並行測試中的 TempDir 唯一性與衝突解析"
 description = "深入解析 Rust TempDir::new() 的運作方式，說明其在並行測試下如何避免目錄衝突。探討隨機命名機制與清理流程。提供極端情境下的實務建議。"
-date = "2025-06-01T00:00:00Z"
+date = "2025-06-12T16:58:11Z"
 updated = "2025-07-28T10:50:34.112Z"
 draft = false
 

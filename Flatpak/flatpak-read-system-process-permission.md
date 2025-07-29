@@ -1,7 +1,7 @@
 +++
 title = "Flatpak 如何讓應用讀取系統程序？TL;DR: 不行。"
 description = "Flatpak 沙盒機制下，應用預設無法讀取系統程序列表。即使透過權限設定（如 --filesystem=host 或 Flatseal）開放 /proc 存取，仍可能因沙盒限制無法達成需求。本文說明原因、權限調整方式及其侷限，並建議如需此功能可考慮非 Flatpak 版本。"
-date = "2025-03-01T00:00:00Z"
+date = "2025-03-28T13:28:44Z"
 updated = "2025-07-27T13:12:23.739Z"
 draft = false
 

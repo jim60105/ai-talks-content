@@ -1,7 +1,7 @@
 +++
 title = "Docker Build 快取失效指南：哪些 Dockerfile 指令會導致 Cache Miss"
 description = "深入解析 Docker build 過程中導致快取失效的 Dockerfile 指令，包含 RUN、ENV、ARG、COPY 等指令的快取機制，以及如何透過最佳實踐提升建置效率並減少不必要的重建時間"
-date = "2024-10-01T00:00:00Z"
+date = "2024-10-21T11:37:12Z"
 updated = "2025-07-25T11:39:31.884Z"
 draft = false
 

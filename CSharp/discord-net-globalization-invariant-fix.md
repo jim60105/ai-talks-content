@@ -1,7 +1,7 @@
 +++
 title = "解決 Discord.NET 全球化不變模式錯誤的 5 個步驟"
 description = "Discord.NET 在 Docker 或 Linux 容器裡報『Only the invariant culture is supported』？這篇教你 5 個簡單步驟，徹底解決全球化不變模式的文化錯誤，讓機器人跨平台穩定執行，不再被文化設定卡住！"
-date = "2025-04-01T00:00:00Z"
+date = "2025-04-10T04:27:38Z"
 updated = "2025-07-27T13:19:47.390Z"
 draft = false
 

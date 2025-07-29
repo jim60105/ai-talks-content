@@ -1,7 +1,7 @@
 +++
 title = "網頁字型載入效能：<style> 與 <link preload> 的最佳實踐"
 description = "探討兩種網頁字型載入方式的效能差異，解析載入順序對 FCP、LCP、CLS 的影響。深入分析 preload 的優勢與注意事項。想提升網頁速度，這篇不可錯過！"
-date = "2025-06-01T00:00:00Z"
+date = "2025-06-02T20:56:52Z"
 updated = "2025-07-28T09:38:33.403Z"
 draft = false
 

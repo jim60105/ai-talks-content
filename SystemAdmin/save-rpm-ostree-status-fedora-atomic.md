@@ -1,7 +1,7 @@
 +++
 title = "如何在 Fedora Atomic Desktop 中保存 rpm-ostree 系統狀態"
 description = "學習如何在進行系統更改前保存 Fedora Atomic Desktop 的 rpm-ostree 狀態，包括使用 pin 指令固定部署版本和回復機制，確保系統更新的安全性。"
-date = "2024-12-01T00:00:00Z"
+date = "2024-12-14T00:47:22Z"
 updated = "2025-07-25T13:59:37.656Z"
 draft = false
 

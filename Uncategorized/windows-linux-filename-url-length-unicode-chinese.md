@@ -1,7 +1,7 @@
 +++
 title = "Windows 與 Linux 檔案名稱與網址長度限制詳解：全型中文字計算方式"
 description = "深入解析 Windows 與 Linux 系統下檔案名稱與網址長度限制，並說明全型中文字在不同情境下的計算方式與程式設計建議。"
-date = "2025-02-01T00:00:00Z"
+date = "2025-02-24T13:16:39Z"
 updated = "2025-07-26T21:08:35.386Z"
 draft = false
 

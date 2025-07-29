@@ -1,7 +1,7 @@
 +++
 title = "Kotlin 後端專案：為何 Service Layer 是不可或缺的一層？"
 description = "你是否曾在 Controller 直接調用 Repository？本文將解析這種做法的隱憂，並說明 Service Layer 帶來的多重好處。最後還提供實用的遷移步驟，助你優化專案架構！"
-date = "2025-05-01T00:00:00Z"
+date = "2025-05-26T14:54:36Z"
 updated = "2025-07-28T04:22:18.480Z"
 draft = false
 

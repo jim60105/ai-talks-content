@@ -1,7 +1,7 @@
 +++
 title = "Python 格式化工具選擇與 Black 指令教學"
 description = "想知道推薦的 Python 格式化工具嗎？本篇詳解如何設定 VSCode 預設 Formatter，並教你用 Black 指令格式化特定資料夾。讓你的程式碼風格一致又專業！"
-date = "2025-06-01T00:00:00Z"
+date = "2025-06-17T18:49:44Z"
 updated = "2025-07-28T11:53:02Z"
 draft = false
 

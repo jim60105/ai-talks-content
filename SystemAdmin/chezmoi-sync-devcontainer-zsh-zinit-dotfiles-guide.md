@@ -1,7 +1,7 @@
 +++
 title = "用 chezmoi 同步 DevContainer：打造專開發環境"
 description = "學會如何運用 chezmoi 工具同步 DevContainer 的個人化設定，結合 zsh 與 zinit 提升開發效率。本文詳述優點、實作指令與自動化流程。讓你在任何容器中都能快速擁有熟悉的高效開發環境。"
-date = "2025-05-01T00:00:00Z"
+date = "2025-05-29T19:41:40Z"
 updated = "2025-07-28T05:03:42Z"
 draft = false
 

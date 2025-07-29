@@ -1,7 +1,7 @@
 +++
 title = "Mastodon 聯邦宇宙完整指南：去中心化社交平台與 Twitter、Threads 的關鍵差異"
 description = "深入解析 Mastodon 聯邦宇宙的運作原理，了解去中心化社交媒體如何改變用戶體驗，以及為什麼越來越多人選擇 Mastodon 而非傳統的 Twitter 和 Threads 平台。"
-date = "2024-11-01T00:00:00Z"
+date = "2024-11-27T17:00:55Z"
 updated = "2025-07-25T13:30:59.283Z"
 draft = false
 

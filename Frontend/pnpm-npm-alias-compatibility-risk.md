@@ -1,7 +1,7 @@
 +++
 title = "pnpm 與 npm 指令相容性解析：直接 alias 有風險？"
 description = "pnpm 雖與 npm 指令高度相容，但細節上仍存差異。直接將 npm alias 為 pnpm 可能導致專案或 CI 流程出現問題。深入了解兩者的兼容性與潛在風險，避免踩雷！"
-date = "2025-06-01T00:00:00Z"
+date = "2025-06-21T02:27:57Z"
 updated = "2025-07-28T12:00:57Z"
 draft = false
 

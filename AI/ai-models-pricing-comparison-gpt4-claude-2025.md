@@ -1,7 +1,7 @@
 +++
 title = "主流 AI 模型價格全面比較：GPT-4.1、Claude 3.7 等"
 description = "想了解 GPT-4.1、Claude Sonnet 3.7、GPT-4.1-mini 與 Claude 3.5 Haiku 的最新價格嗎？本文以表格清楚比較各模型的輸入與輸出費用。掌握最新 AI 模型定價，選擇最適合你的解決方案！"
-date = "2025-04-01T00:00:00Z"
+date = "2025-04-24T10:06:03Z"
 updated = "2025-07-27T14:18:23.084Z"
 draft = false
 

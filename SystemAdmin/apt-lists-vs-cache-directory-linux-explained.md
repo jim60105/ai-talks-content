@@ -1,7 +1,7 @@
 +++
 title = "深入解析 APT 兩大目錄：/var/lib/apt/lists 與 /var/cache/apt"
 description = "你知道 /var/lib/apt/lists 和 /var/cache/apt 各自儲存什麼嗎？本文帶你了解這兩個目錄的功能與結構。掌握它們，讓你的 Linux 軟體管理更有效率！"
-date = "2025-05-01T00:00:00Z"
+date = "2025-05-04T02:01:17Z"
 updated = "2025-07-27T15:30:40Z"
 draft = false
 

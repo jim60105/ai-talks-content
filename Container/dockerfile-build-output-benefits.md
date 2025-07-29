@@ -1,7 +1,7 @@
 +++
 title = "使用 Dockerfile 建置專案並導出編譯檔案的優勢"
 description = "解析為何在 CI/CD 流程中以 Dockerfile 建置專案並利用 --output 導出編譯檔案，能提升環境一致性、自動化與部署效率。"
-date = "2024-12-01T00:00:00Z"
+date = "2024-12-26T23:11:20Z"
 updated = "2025-07-25T14:40:22.581Z"
 draft = false
 

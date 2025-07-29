@@ -1,7 +1,7 @@
 +++
 title = "Debug 訊息為什麼要輸出到 stderr？"
 description = "你是否曾好奇 debug 訊息該輸出到哪裡？本文解析為什麼開發者習慣將調試訊息導向 stderr，而非 stdout。深入探討這項慣例背後的技術理由與實務優勢。"
-date = "2025-07-26T13:20:33.80Z"
+date = "2025-07-26T13:20:33Z"
 updated = "2025-07-29T03:17:56.308Z"
 draft = false
 

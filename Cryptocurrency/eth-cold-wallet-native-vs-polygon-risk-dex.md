@@ -1,7 +1,7 @@
 +++
 title = "冷錢包長期持有 ETH：原生鏈與 Polygon 鏈風險解析"
 description = "想長期在冷錢包持有 ETH？原生鏈 ETH 與 Polygon 鏈 ETH 在安全性與風險上有何不同？本文帶你深入解析兩者的資產屬性與 DEX 交易池現況。"
-date = "2025-06-01T00:00:00Z"
+date = "2025-06-16T04:55:28Z"
 updated = "2025-07-28T11:26:27.155Z"
 draft = false
 

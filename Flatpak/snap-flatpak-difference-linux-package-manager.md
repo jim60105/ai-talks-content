@@ -1,7 +1,7 @@
 +++
 title = "Snap 與 Flatpak 差異比較：Linux 軟體包管理系統全解析"
 description = "深入比較 Snap 與 Flatpak 兩大 Linux 軟體包管理系統，解析其起源、應用場景、安全性、效能與社群支持，協助你選擇最適合的應用安裝方式。"
-date = "2025-02-01T00:00:00Z"
+date = "2025-02-03T13:38:26Z"
 updated = "2025-07-25T18:09:26.113Z"
 draft = false
 

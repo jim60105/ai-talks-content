@@ -1,7 +1,7 @@
 +++
 title = "YouTube 影片嵌入技術與 Discord 平台限制全解析"
 description = "深入解析 YouTube 影片嵌入原理及 Discord 嵌入限制，揭示自訂播放器在 Discord 的可行性。探索 Open Graph 與 Webhook 等替代方案。協助工程師打造最佳影片分享體驗。"
-date = "2025-07-20T19:55:34.77Z"
+date = "2025-07-20T19:55:34Z"
 updated = "2025-07-29T02:45:47Z"
 draft = false
 

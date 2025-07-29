@@ -1,7 +1,7 @@
 +++
 title = "如何判斷 JavaScript 是否運行於 iframe？"
 description = "想知道你的 JavaScript 腳本是在 iframe 還是最上層頁面運行嗎？本文介紹三種常見判斷方法，並附上實用範例程式碼。掌握這些技巧，讓你的網頁開發更靈活！"
-date = "2025-05-01T00:00:00Z"
+date = "2025-05-02T18:46:11Z"
 updated = "2025-07-27T15:15:56Z"
 draft = false
 
