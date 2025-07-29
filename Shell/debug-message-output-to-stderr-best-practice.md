@@ -6,7 +6,7 @@ updated = "2025-07-29T03:17:56.308Z"
 draft = false
 
 [taxonomies]
-tags = [ ]
+tags = [ "Linux", "System Admin" ]
 providers = [ "Felo Search" ]
 licenses = [ "GFDL 1.3" ]
 
