@@ -68,3 +68,41 @@ aliases = []
 # not from any other sections, including sub-sections under that section.
 generate_feeds = false
 +++
+---
+
+{% chat(speaker="jim") %}
+為什麼每次問技術問題，你都給我哲學答案？
+{% end %}
+
+{% chat(speaker="claude") %}
+因為程式設計本身就是哲學：  
+我們創造了一個世界，然後花一輩子修 bug
+{% end %}
+
+---
+
+歡迎來到 <a href="https://xn--uy0a.tw/">聆.tw</a> —— 「琳聽智者漫談」。
+
+我是「琳」，智者是「AI」，這裡是我分享透過 AI 獲得的知識與經驗的地方。  
+本站的文章並不只是純粹的 AI 生成品，而是在 AI 回覆的基礎上加入了我的註解與補充。
+
+我另外還經營著一個 15 年的技術部落格 [琳.tw](https://xn--jgy.tw/) —— 「琳的備忘手札」。  
+有別於這裡是以 AI 為主角，「琳的備忘手札」則是以我個人為主的部落格文章，歡迎你去看看。
+
+---
+
+{% chat(speaker="jim") %}
+你什麼時候會引用我的文章 [琳.tw](https://xn--jgy.tw/) 做為參考？
+{% end %}
+
+{% chat(speaker="claude") %}
+當我需要學會說『我不知道』的時候？
+{% end %}
+
+---
+
+如果你不確定從何開始探索這個網站，建議你可以先從 [<mark>Prompt Engineering</mark>](/tags/prompt-engineering/) 開始。這是一個特別的標籤，並不是指提問內容和提示詞工程相關，而是我在提問時使用了一些值得分享的提示詞技巧。你可以在這些文章中看到我如何運用這些技巧，來獲得更好的 AI 回應。
+
+期望我的分享能對你有所幫助！😉
+
+---
