@@ -38,4 +38,4 @@ We reserve the right to update or change our Privacy Policy at any time and you 
 
 ## Contact Information
 
-For any questions or concerns regarding the privacy policy, please contact us on GitHub <https://github.com/jim60105/ai-talks>.
+For any questions or concerns regarding the privacy policy, please contact us on GitHub <https://github.com/jim60105/blog>.
