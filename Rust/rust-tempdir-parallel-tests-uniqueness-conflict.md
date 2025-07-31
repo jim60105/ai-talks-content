@@ -9,7 +9,6 @@ draft = false
 tags = [ "Rust", "Prompt Engineering" ]
 providers = [ "Felo Search" ]
 
-
 [extra]
 withAI = "<https://felo.ai/search/SKynbzHhVDe4SwYqzuNHrg?invite=dOLYGeJyZJqVX>"
 +++

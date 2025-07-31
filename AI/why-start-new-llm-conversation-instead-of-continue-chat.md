@@ -9,7 +9,6 @@ draft = false
 tags = [ "LLM" ]
 providers = [ "Felo Search" ]
 
-
 [extra]
 withAI = "<https://felo.ai/search/9DbpjyjfXgtZnrYeqXSEHL?invite=dOLYGeJyZJqVX>"
 +++

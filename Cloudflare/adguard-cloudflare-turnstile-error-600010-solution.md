@@ -9,7 +9,6 @@ draft = false
 tags = [ "AdGuard", "Cloudflare" ]
 providers = [ "Felo Search" ]
 
-
 [extra]
 withAI = "<https://felo.ai/search/ajoH65hjJRax5TYkp4AASg?invite=dOLYGeJyZJqVX>"
 +++

@@ -9,7 +9,6 @@ draft = false
 tags = [ "Zsh", "DevOps" ]
 providers = [ "Felo Search" ]
 
-
 [extra]
 withAI = "<https://felo.ai/search/GqYU9zzk74TNxaNG6dJ5LJ?invite=dOLYGeJyZJqVX>"
 +++

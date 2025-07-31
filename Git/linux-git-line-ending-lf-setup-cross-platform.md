@@ -9,7 +9,6 @@ draft = false
 tags = [ "Git", "Linux" ]
 providers = [ "Felo Search" ]
 
-
 [extra]
 withAI = "<https://felo.ai/search/eixgEFxP8UP8qVwAstF7Ai?invite=dOLYGeJyZJqVX>"
 +++
@@ -18,16 +17,10 @@ withAI = "<https://felo.ai/search/eixgEFxP8UP8qVwAstF7Ai?invite=dOLYGeJyZJqVX>"
 {% end %}
 
 {% chat(speaker="felo") %}
-根據搜尋結果，我將詳細分析相關問題。
+本報告旨在提供在 Fedora (Linux) 系統上設定 Git 的詳細指南，以確保在與使用 Windows 的開發者協作時，處理混雜 CRLF 與 LF 換行符的儲存庫（repository）能夠滿足特定需求：於 `git checkout` 時將所有文字檔案轉換為 LF 換行符，並在 `git commit` 時，將工作目錄中的 LF 換行符提交至儲存庫，或確保儲存庫中的檔案最終為 LF 換行符。核心解決方案是透過專案根目錄下的 `.gitattributes` 檔案來強制執行換行符規則，輔以適當的本地 Git 全域設定。
 {% end %}
 
-## Overview
-
-本報告旨在提供在 Fedora (Linux) 系統上設定 Git 的詳細指南，以確保在與使用 Windows 的開發者協作時，處理混雜 CRLF 與 LF 換行符的儲存庫（repository）能夠滿足特定需求：於 `git checkout` 時將所有文字檔案轉換為 LF 換行符，並在 `git commit` 時，將工作目錄中的 LF 換行符提交至儲存庫，或確保儲存庫中的檔案最終為 LF 換行符。核心解決方案是透過專案根目錄下的 `.gitattributes` 檔案來強制執行換行符規則，輔以適當的本地 Git 全域設定。
-
-## Detailed Report
-
-### 換行符問題背景
+## 換行符問題背景
 
 不同的作業系統使用不同的字元來標記文字檔案的換行：
 
@@ -36,7 +29,7 @@ withAI = "<https://felo.ai/search/eixgEFxP8UP8qVwAstF7Ai?invite=dOLYGeJyZJqVX>"
 
 當不同作業系統的使用者在同一個 Git 儲存庫上協作時，若未妥善處理，換行符的差異會導致 Git 將整個檔案標記為已修改，即使內容本身沒有變更，這會干擾程式碼比對 (diff) 和審查 (review) [^2][^6][^46][^54]。
 
-### Git 處理換行符的機制
+## Git 處理換行符的機制
 
 Git 提供數種機制來處理換行符轉換：
 
@@ -66,11 +59,12 @@ Git 提供數種機制來處理換行符轉換：
 * `warn`: 若檢查到問題，則顯示警告但允許提交 [^13][^92]。
 * `false`: 不進行檢查，允許提交 [^13][^25][^90]。
 
-### 滿足使用者需求的設定方案
+## 滿足使用者需求的設定方案
 
 根據使用者需求（Fedora 環境下，checkout 時強制為 LF，commit 時提交 LF），最佳實踐是使用 `.gitattributes` 檔案來統一儲存庫的行為。
 
-**步驟 1: 設定 `.gitattributes` 檔案**
+### 步驟 1: 設定 `.gitattributes` 檔案
+
 在專案的根目錄下建立或修改 `.gitattributes` 檔案，加入以下內容：
 
 ```gitattributes
@@ -83,7 +77,8 @@ Git 提供數種機制來處理換行符轉換：
 * `eol=lf`: 強制 Git 在 `git checkout` 時，將所有被識別為文字檔的檔案轉換成 LF 換行符 [^3][^47][^72]。這確保了無論儲存庫中原始的換行符是什麼，使用者在 Fedora 上的工作目錄中看到的都是 LF。
 * **提交行為**: 當檔案被標記為 `text` (透過 `text=auto` 或明確指定 `text`) 時，Git 在提交（`git commit`）時會預設將其換行符正規化 (normalize) 為 LF 儲存到儲存庫中 [^5][^77][^81]。結合 `eol=lf` 確保工作目錄為 LF，這能保證提交的也是 LF。
 
-**步驟 2: 設定使用者的本地 Git 全域組態 (Fedora/Linux 建議)**
+### 步驟 2: 設定使用者的本地 Git 全域組態 (Fedora/Linux 建議)
+
 雖然 `.gitattributes` 優先級更高 [^3][^15][^20]，但設定好本地全域組態仍是良好習慣。
 
 ```bash
@@ -97,7 +92,8 @@ git config --global core.safecrlf true
 * `core.autocrlf input`: 這是 Linux 系統的標準建議值 [^3][^17][^34]。即使 `.gitattributes` 未涵蓋某些檔案，此設定也能確保在提交時嘗試將 CRLF 轉換為 LF。
 * `core.safecrlf true`: 增加一層保護，防止因意外情況（如工具錯誤地引入 CRLF）而提交了包含混合換行符的檔案 [^2][^13]。
 
-**步驟 3: 對現有儲存庫進行正規化**
+### 步驟 3: 對現有儲存庫進行正規化
+
 在加入或修改 `.gitattributes` 檔案後，需要執行一次正規化操作，讓 Git 根據新規則重新處理儲存庫中的所有檔案 [^3][^68][^71]。
 
 ```bash
@@ -117,7 +113,7 @@ git commit -m "正規化所有檔案的換行符"
 
 此操作會更新 Git 的索引 (index)，確保之後的提交和檢出都符合 `.gitattributes` 的規範。執行 `git add --renormalize .` 後，`git status` 可能會顯示大量檔案被修改，這是正常的，因為 Git 正在統一換行符。
 
-### 結論
+## 結論
 
 透過在專案根目錄配置 `.gitattributes` 文件，設定 `* text=auto eol=lf`，可以強制 Git 在 `checkout` 時將所有文字檔轉換為 LF，並在 `commit` 時將文字檔以 LF 格式儲存於儲存庫中。同時，建議將 Fedora 使用者的本地全域 Git 設定 `core.autocrlf` 為 `input`，並將 `core.safecrlf` 設為 `true`，以提供額外的保障。最後，務必執行 `git add --renormalize .` 來更新現有儲存庫，使新設定生效。這種方法不需要規範 Windows 使用者的設定，即可在 Fedora 環境下達到預期的換行符處理效果。
 

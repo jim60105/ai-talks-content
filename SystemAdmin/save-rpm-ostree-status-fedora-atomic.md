@@ -9,7 +9,6 @@ draft = false
 tags = [ "Linux", "RHEL/Fedora", "System Admin", "Package Manager" ]
 providers = [ "Felo Search" ]
 
-
 [extra]
 withAI = "<https://felo.ai/search/iNLVpPRCiPvMxQobkJtpMT?invite=dOLYGeJyZJqVX>"
 +++

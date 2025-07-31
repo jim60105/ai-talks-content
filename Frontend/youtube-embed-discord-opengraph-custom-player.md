@@ -7,8 +7,7 @@ draft = false
 
 [taxonomies]
 tags = [ "YouTube", "Discord" ]
-providers = [ "Felo Search" ]
-
+providers = [ "Felo Search", "Claude" ]
 
 [extra]
 withAI = "<https://felo.ai/search/TMqEDuVTNAudpeT9uUj6pL?invite=dOLYGeJyZJqVX>"

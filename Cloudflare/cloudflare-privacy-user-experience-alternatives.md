@@ -9,7 +9,6 @@ draft = false
 tags = [ "Cloudflare", "Privacy", "Prompt Engineering" ]
 providers = [ "Felo Search" ]
 
-
 [extra]
 withAI = "<https://felo.ai/search/2wEQkgXZCTemkXzDaEpaWN>"
 disclaimer = """

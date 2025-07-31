@@ -9,7 +9,6 @@ draft = false
 tags = [ "Prompt Engineering" ]
 providers = [ "Felo Search" ]
 
-
 [extra]
 withAI = "<https://felo.ai/search/W7EqYyGuRoMFoQsTN6uS2U?invite=dOLYGeJyZJqVX>"
 +++
@@ -17,7 +16,7 @@ withAI = "<https://felo.ai/search/W7EqYyGuRoMFoQsTN6uS2U?invite=dOLYGeJyZJqVX>"
 在接觸一個全新的領域時，透過 AI 可以很快速的掌握關鍵入門知識。
 
 可以注意我的提問實施了 CO-STAR 提示詞技巧。  
-(其中的 Style 和 Tone 由於 Felo Search Pro 的研究模式本身已經有足夠的設計，我就略過它了)
+(其中的 Style 和 Tone 由於 Felo Search Pro 的研究模式本身已經有足夠的設計，可以不需要額外指定。)
 {% end %}
 
 {% alert(edit=true) %}

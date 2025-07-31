@@ -9,7 +9,6 @@ draft = false
 tags = [ "Backend", "Kotlin", "Design Pattern", "Prompt Engineering" ]
 providers = [ "Felo Search" ]
 
-
 [extra]
 withAI = "<https://felo.ai/search/5AdtYNriKsZAr497zTJEmR?invite=dOLYGeJyZJqVX>"
 +++

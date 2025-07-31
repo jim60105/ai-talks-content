@@ -9,7 +9,6 @@ draft = false
 tags = [ "Polygon", "Cryptocurrency" ]
 providers = [ "Felo Search" ]
 
-
 [extra]
 withAI = "<https://felo.ai/search/VBceeXNyTwxPMppyRhdgeE?invite=dOLYGeJyZJqVX>"
 disclaimer = "本文為 2025 年 7 月透過網路公開資訊進行的計算實驗。真實交易手續費依照各交易所實際公告為準。"

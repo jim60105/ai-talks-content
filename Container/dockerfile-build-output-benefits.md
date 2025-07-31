@@ -9,7 +9,6 @@ draft = false
 tags = [ "Container", "Containerfile", "Docker", "DevOps" ]
 providers = [ "Felo Search" ]
 
-
 [extra]
 withAI = "<https://felo.ai/search/GcewVfEAvuidgSQeJeSZXP?invite=dOLYGeJyZJqVX>"
 +++
@@ -20,7 +19,7 @@ withAI = "<https://felo.ai/search/GcewVfEAvuidgSQeJeSZXP?invite=dOLYGeJyZJqVX>"
 {% end %}
 
 {% chat(speaker="jim") %}
-explain what is the befinit of building project in dockerfile and --output the complied files
+explain what is the benefit of building project in dockerfile and --output the complied files
 {% end %}
 
 {% chat(speaker="felo") %}

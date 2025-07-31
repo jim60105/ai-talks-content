@@ -9,7 +9,6 @@ draft = false
 tags = [ "Linux" ]
 providers = [ "Felo Search" ]
 
-
 [extra]
 withAI = "<https://felo.ai/search/KEr5tsZwrixxPkB3oVDZwy>"
 +++

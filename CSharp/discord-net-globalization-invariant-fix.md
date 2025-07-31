@@ -9,7 +9,6 @@ draft = false
 tags = [ "C#", "Container", "Discord" ]
 providers = [ "Felo Search" ]
 
-
 [extra]
 withAI = "<https://felo.ai/search/2ZyXMkyjxbGPawwxV2Dvd4?invite=dOLYGeJyZJqVX>"
 +++

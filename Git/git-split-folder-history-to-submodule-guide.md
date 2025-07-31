@@ -9,7 +9,6 @@ draft = false
 tags = [ "Git" ]
 providers = [ "Felo Search" ]
 
-
 [extra]
 withAI = "<https://felo.ai/search/UqbWZeznB3uZARr3aTMD2e?invite=dOLYGeJyZJqVX>"
 +++

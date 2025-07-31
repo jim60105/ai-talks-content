@@ -9,7 +9,6 @@ draft = false
 tags = [ "Cryptocurrency", "Prompt Engineering", "BTC" ]
 providers = [ "Felo Search" ]
 
-
 [extra]
 withAI = "<https://felo.ai/search/Kuw9JC55gKsAqJbk65zNhy?invite=dOLYGeJyZJqVX>"
 disclaimer = "所有資訊內容僅供使用者作為參考之用途，不構成任何個人之意見或判斷，亦不構成任何投資建議，本人亦不保證其各項資訊內容之完整性、即時性及精確性。"

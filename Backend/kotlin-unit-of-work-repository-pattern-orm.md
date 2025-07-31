@@ -15,7 +15,6 @@ tags = [
 ]
 providers = [ "Felo Search" ]
 
-
 [extra]
 withAI = "<https://felo.ai/search/YyHPp6unwvsnaVwkFsWb9K?invite=dOLYGeJyZJqVX>"
 +++

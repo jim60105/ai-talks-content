@@ -9,7 +9,6 @@ draft = false
 tags = [ "npm", "pnpm", "Package Manager" ]
 providers = [ "Felo Search" ]
 
-
 [extra]
 withAI = "<https://felo.ai/search/ZGTRBQ3jtN8kkWcssTH7pL?invite=dOLYGeJyZJqVX>"
 +++
@@ -22,10 +21,8 @@ pnpm 是否完全相容於 npm 指令? 使用 alias npm = pnpm是否安全?
 {% end %}
 
 {% chat(speaker="felo") %}
-根據搜尋結果，我將詳細分析相關問題。
-{% end %}
-
 在考慮把所有 `npm` 命令都改由 `pnpm` 來執行之前，最好先了解兩者在指令支援上的差異，以及直接把 `npm` alias 指向 `pnpm` 可能帶來的風險。
+{% end %}
 
 ## 相容性概況
 

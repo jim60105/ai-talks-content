@@ -9,7 +9,6 @@ draft = false
 tags = [ "Docker", "Container", "LLM" ]
 providers = [ "Felo Search" ]
 
-
 [extra]
 withAI = "<https://felo.ai/search/muPY9QHhmRTeDXsWo6ZUTU?invite=dOLYGeJyZJqVX>"
 +++

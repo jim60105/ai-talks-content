@@ -9,7 +9,6 @@ draft = false
 tags = [ "BTC", "Cryptocurrency", "ETH" ]
 providers = [ "Felo Search" ]
 
-
 [extra]
 withAI = "<https://felo.ai/search/Ea38CD6QkLhv3eTvEzRWW3?invite=dOLYGeJyZJqVX>"
 katex = true

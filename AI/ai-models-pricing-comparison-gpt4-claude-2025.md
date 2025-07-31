@@ -6,9 +6,8 @@ updated = "2025-07-27T14:18:23.084Z"
 draft = false
 
 [taxonomies]
-tags = [ "LLM" ]
+tags = [ "LLM", "Prompt Engineering" ]
 providers = [ "Felo Search" ]
-
 
 [extra]
 withAI = "<https://felo.ai/search/NjLh7c46LKJwnYkHyoN5Hf?invite=dOLYGeJyZJqVX>"
