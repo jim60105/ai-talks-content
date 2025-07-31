@@ -11,6 +11,7 @@ providers = [ "Felo Search" ]
 
 [extra]
 withAI = "<https://felo.ai/search/W7EqYyGuRoMFoQsTN6uS2U?invite=dOLYGeJyZJqVX>"
+featured = true
 +++
 {% alert(edit=true) %}
 在接觸一個全新的領域時，透過 AI 可以很快速的掌握關鍵入門知識。

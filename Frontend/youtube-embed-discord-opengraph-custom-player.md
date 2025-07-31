@@ -11,6 +11,7 @@ providers = [ "Felo Search", "Claude" ]
 
 [extra]
 withAI = "<https://felo.ai/search/TMqEDuVTNAudpeT9uUj6pL?invite=dOLYGeJyZJqVX>"
+featured = true
 +++
 {% chat(speaker="jim") %}
 我注意到 Youtube 在其它網站上的預覧使用它自有的播放器。請告訴我它們使用的技術是什麼，我身為一個網頁工程師，是否也能實作我自己的預覧播放器? 我的終極目標是在其它的 app (例如 Discord) 內實現呈現我自己實作的特別的影音預覧播放器。

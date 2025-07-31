@@ -11,6 +11,7 @@ providers = [ "Felo Search" ]
 
 [extra]
 withAI = "<https://felo.ai/search/GqYU9zzk74TNxaNG6dJ5LJ?invite=dOLYGeJyZJqVX>"
+featured = true
 +++
 {% chat(speaker="jim") %}
 生成一篇指南，內容是如何使用 chezmoi 來同步 devcontainer 環境。指南中要包含如此做的優點以及實際操作指令。另外提及 zsh 以 zinit 管理器安裝應用的說明，和 chezmoi 搭配使用可以在 devcontainer 達成什麼事。

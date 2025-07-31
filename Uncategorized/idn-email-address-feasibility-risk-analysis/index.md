@@ -9,9 +9,9 @@ draft = false
 tags = [ "Domain" ]
 providers = [ "Felo Search" ]
 
-
 [extra]
 withAI = "<https://felo.ai/search/asDBVL3ayHwqbatyLbNbQS?invite=dOLYGeJyZJqVX>"
+featured = true
 
   [extra.comments]
   id = "114931637121182345"

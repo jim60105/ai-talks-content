@@ -11,6 +11,7 @@ providers = [ "Felo Search" ]
 
 [extra]
 withAI = "<https://felo.ai/search/hXjR58s9DdykQxzsyWJgrN?invite=dOLYGeJyZJqVX>"
+featured = true
 +++
 {% alert(edit=true) %}
 研究這個是由於自從我開始 Vibe Coding 之後 AI 直接用我的身份在活動，我發現我的 GitHub 帳號越來越像 🤖...

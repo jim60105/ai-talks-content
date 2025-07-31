@@ -11,6 +11,7 @@ providers = [ "Felo Search" ]
 
 [extra]
 withAI = "<https://felo.ai/search/ktKNE2aX8F4uJpftfbCDnS?invite=dOLYGeJyZJqVX>"
+featured = true
 +++
 {% alert(edit=true) %}
 這是我在調整 Duckquill template (本站點使用的範本) 時生成的參考資料。Duckquill 原本的做法是方法一，而我將它優化為方法二，在提出 PR 時我需要一個明確的解釋來支撐這個改變。

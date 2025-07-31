@@ -9,9 +9,9 @@ draft = false
 tags = [ "Cryptocurrency" ]
 providers = [ "Felo Search" ]
 
-
 [extra]
 withAI = "<https://felo.ai/search/XkUvqo6sW7ML9bNbKRSxqe?invite=dOLYGeJyZJqVX>"
+featured = true
 +++
 {% alert(edit=true) %}
 本來是想實驗能不能透過烏克蘭語搜到當地新聞，但由實驗結果來看 Felo Search 內部指定了搜尋英文來源，沒有去找烏克蘭語。

@@ -11,6 +11,7 @@ providers = [ "Felo Search" ]
 
 [extra]
 withAI = "<https://felo.ai/search/mbHKVG9UzZisrxkaHHnSxU?invite=dOLYGeJyZJqVX>"
+featured = true
 +++
 {% chat(speaker="jim") %}
 深入研究 what are the advantages of Zsh over Bash?  

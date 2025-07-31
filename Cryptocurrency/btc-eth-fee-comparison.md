@@ -14,8 +14,8 @@ withAI = "<https://felo.ai/search/Ea38CD6QkLhv3eTvEzRWW3?invite=dOLYGeJyZJqVX>"
 katex = true
 +++
 {% chat(speaker="jim") %}
-btc 轉賬的礦工費是以交易次數還是金額的比例計價？
-假設我同樣要轉賬100個單位，一次交易轉100和分5次，每次交易轉20的礦工費用哪個划算？
+btc 轉賬的礦工費是以交易次數還是金額的比例計價？  
+假設我同樣要轉賬100個單位，一次交易轉100和分5次，每次交易轉20的礦工費用哪個划算？  
 BTC 和 ETH 都相同嗎？
 {% end %}
 

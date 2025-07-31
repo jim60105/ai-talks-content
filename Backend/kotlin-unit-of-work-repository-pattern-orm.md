@@ -17,6 +17,7 @@ providers = [ "Felo Search" ]
 
 [extra]
 withAI = "<https://felo.ai/search/YyHPp6unwvsnaVwkFsWb9K?invite=dOLYGeJyZJqVX>"
+featured = true
 +++
 {% alert(edit=true) %}
 其實在寫 Kotlin 的不是我，是另一位認識的網友。  
