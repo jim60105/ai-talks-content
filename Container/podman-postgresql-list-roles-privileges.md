@@ -13,7 +13,7 @@ licenses = [ "GFDL 1.3" ]
 [extra]
 withAI = "<https://felo.ai/search/aK2qfyrju6TSNXF8fjkUS2?invite=dOLYGeJyZJqVX>"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 這篇的緣由是客戶說他們的資訊部門要求清查所有資料庫的 role，並且調整權限以合乎最小權限原則。
 
 我們的案子是有一台 PostgreSQL，但它是在 Podman 中運行，僅開放同一 Pod 內服務存取。我出了這份查詢指令給客戶，並且努力說服他們不要去碰它的權限，

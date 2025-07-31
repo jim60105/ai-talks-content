@@ -23,7 +23,7 @@ I'm using globalization-invariant mode, how to let discord .net work without 特
 在使用 Discord.NET 時，如果你遇到「只有不變文化在全球化不變模式下受到支持」的錯誤，這通常是因為你的應用程式在全球化不變模式下運行，而 Discord.NET 需要特定的文化設定來正常運作。以下是一些解決方案，幫助你在不使用特定文化的情況下讓 Discord.NET 正常運行。
 {% end %}
 
-{% editor_note() %}
+{% alert(edit=true) %}
 它的回覆和我問的是相反的，那是因為我的初始要求其實無法達成。
 
 這個報錯訊息有點不容易理解:  

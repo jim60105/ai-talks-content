@@ -13,7 +13,7 @@ licenses = [ "GFDL 1.3" ]
 [extra]
 withAI = "<https://felo.ai/search/ajoH65hjJRax5TYkp4AASg?invite=dOLYGeJyZJqVX>"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 TL;DR: 把這條加到你的 AdGuard 過濾器條件
 
 ```

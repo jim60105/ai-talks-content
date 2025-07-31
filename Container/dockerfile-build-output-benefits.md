@@ -13,7 +13,7 @@ licenses = [ "GFDL 1.3" ]
 [extra]
 withAI = "<https://felo.ai/search/GcewVfEAvuidgSQeJeSZXP?invite=dOLYGeJyZJqVX>"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 有同事問我，為什麼我的 CI 是在 Containerfile 裡建置，而不是直接寫在 CI yml 中於 runner 上直接建置 (那是個不會產出 container image 的專案)，這跟一般做法不太一樣。
 
 在 container 中建置確實是有著很多好處，而不是單純因為我喜歡 container 而已。😉

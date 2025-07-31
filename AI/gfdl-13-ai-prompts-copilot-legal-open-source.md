@@ -14,7 +14,7 @@ licenses = [ "GFDL 1.3" ]
 withAI = "<https://felo.ai/search/F5i4Tr7dTLJYJ4TQ8vwYYT?invite=dOLYGeJyZJqVX>"
 disclaimer = "本文為 AI 生成之一般性資訊，並非專業法律建議。"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 我目前使用 GFDL 1.3 授權我的 [jim60105/prompt](https://github.com/jim60105/prompt) 及 [jim60105/copilot-prompt](https://github.com/jim60105/copilot-prompt) 兩個專案。
 
 我過往使用 GFDL 1.3 來授權我的部落格文章、說明文件等非程式碼創作，但是對於使用在提示詞上面是否合適仍有一些疑慮。🤔
@@ -62,7 +62,7 @@ GFDL 1.3 的一個重要更新是，它允許在特定條件下，將 GFDL 授�
 
 ### 提示詞是否構成受著作權保護的「著作」？
 
-{% editor_note() %}
+{% alert(edit=true) %}
 這段 Felo Search 援引的資料來源是針對「AI 生成品」的法律地位進行分析，而非探討「提示詞本身」的著作權地位。它不小心將兩者混淆了。
 {% end %}
 

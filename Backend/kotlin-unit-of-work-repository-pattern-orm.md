@@ -13,7 +13,7 @@ licenses = [ "GFDL 1.3" ]
 [extra]
 withAI = "<https://felo.ai/search/YyHPp6unwvsnaVwkFsWb9K?invite=dOLYGeJyZJqVX>"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 其實在寫 Kotlin 的不是我，是另一位認識的網友。  
 我幫他 code review 之後發現 repository 沒有一起實作 UoW。
 
@@ -102,7 +102,7 @@ Repository 模式和 Unit of Work 模式經常一起使用，因為它們共同�
 
 許多 ORM 框架（如 Entity Framework）的 `DbContext` 或 Session 物件本身就隱含了 Unit of Work 的功能，例如 EF 中的 `SaveChanges()` 方法就扮演了 UoW 中 `commit()` 的角色 [^71][^112]。
 
-{% editor_note() %}
+{% alert(edit=true) %}
 Entity Framework 是 C# .NET 的 ORM，Kotlin 小夥伴請略過它。
 {% end %}
 

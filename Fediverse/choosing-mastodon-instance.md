@@ -13,7 +13,7 @@ licenses = [ "GFDL 1.3" ]
 [extra]
 withAI = "<https://felo.ai/search/C89zWhcQnp5EUszyCzMz5R?invite=dOLYGeJyZJqVX>"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 被同事問到了「為什麼你的 Mastodon 不是用官方的？」這樣的問題。
 
 對於只用過中心化社群媒體的人來說，「實例」這個概念可能有點難以理解。我當時生成了這篇文章，來解釋為什麼他不該選官方的那一個。

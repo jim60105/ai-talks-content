@@ -16,7 +16,7 @@ withAI = "<https://felo.ai/search/FL3rE5r6spxkdLhC9wGsZg?invite=dOLYGeJyZJqVX>"
   [extra.comments]
   id = "114924536011258063"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 問這個問題是因為我想要讓 Discord Flatpak 版能抓到運行中的遊戲，然而並沒有弄成功。  
 若有人成功了希望能在下方回覆區跟我分享一下，我非常想知道。
 {% end %}
@@ -78,7 +78,7 @@ flatpak override --filesystem=/proc 應用程式ID
 
 如果您能分享您具體需要哪個應用程式讀取系統程序列表，可能會有更具體的解決方案。
 
-{% editor_note() %}
+{% alert(edit=true) %}
 請閱讀[這篇 issue](https://github.com/flatpak/flatpak/issues/3922) 了解更多。
 {% end %}
 

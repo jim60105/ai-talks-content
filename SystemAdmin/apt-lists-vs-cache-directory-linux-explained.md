@@ -13,7 +13,7 @@ licenses = [ "GFDL 1.3" ]
 [extra]
 withAI = "<https://felo.ai/search/iqQLfxe2VLU9cpdhCAD939?invite=dOLYGeJyZJqVX>"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 在寫 Containerfile 時常要 mount 或 clear cache，但以前都不曉得這兩個資料夾具體存些什麼 🫠
 {% end %}
 

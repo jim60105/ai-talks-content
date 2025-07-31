@@ -121,7 +121,7 @@ git commit -m "正規化所有檔案的換行符"
 
 透過在專案根目錄配置 `.gitattributes` 文件，設定 `* text=auto eol=lf`，可以強制 Git 在 `checkout` 時將所有文字檔轉換為 LF，並在 `commit` 時將文字檔以 LF 格式儲存於儲存庫中。同時，建議將 Fedora 使用者的本地全域 Git 設定 `core.autocrlf` 為 `input`，並將 `core.safecrlf` 設為 `true`，以提供額外的保障。最後，務必執行 `git add --renormalize .` 來更新現有儲存庫，使新設定生效。這種方法不需要規範 Windows 使用者的設定，即可在 Fedora 環境下達到預期的換行符處理效果。
 
-{% editor_note() %}
+{% alert(edit=true) %}
 我最後使用
 
 ```gitignore

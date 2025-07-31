@@ -15,7 +15,7 @@ withAI = "<https://felo.ai/search/Kuw9JC55gKsAqJbk65zNhy?invite=dOLYGeJyZJqVX>"
 disclaimer = "所有資訊內容僅供使用者作為參考之用途，不構成任何個人之意見或判斷，亦不構成任何投資建議，本人亦不保證其各項資訊內容之完整性、即時性及精確性。"
 archive = "本文內容是四月當時的情況，已過時。"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 四月時 BTC 突然漲了一波，我完全不曉得為什麼。在自己做功課之前先讓 AI 幫我節省時間。
 
 這篇文章是想展示 Felo Search Pro 的強大搜尋能力可以用來做趨勢分析，它可以大量閱讀國內外新聞、資料後統整為報告。  

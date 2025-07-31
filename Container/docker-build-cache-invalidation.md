@@ -13,7 +13,7 @@ licenses = [ "GFDL 1.3" ]
 [extra]
 withAI = "<https://felo.ai/search/C89zWhcQnp5EUszyCzMz5R?invite=dOLYGeJyZJqVX>"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 小技巧:
 
 我習慣在 CI 上將每次執行時的流水號以 RELEASE build-arg 傳入，並且在 **不希望使用到 cache** 的步驟前面插入這個 ARG。

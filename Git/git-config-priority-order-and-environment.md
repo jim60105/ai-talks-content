@@ -13,13 +13,13 @@ licenses = [ "GFDL 1.3" ]
 [extra]
 withAI = "<https://felo.ai/search/hXjR58s9DdykQxzsyWJgrN?invite=dOLYGeJyZJqVX>"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 研究這個是由於自從我開始 Vibe Coding 之後 AI 直接用我的身份在活動，我發現我的 GitHub 帳號越來越像 🤖...
 
 為了改善這個問題，我開了另一個帳號 [bot0419](https://github.com/bot0419) 專門給我的 🤖 小夥伴使用。我需要設定它在 commit 的時候使用自己的 username & email，但又不能直接改變專案層級或使用者層級設定，因為我自己也會使用同一個 repo。
 {% end %}
 
-{% editor_note() %}
+{% alert(edit=true) %}
 使用了一個月下來，最順暢的設定是[透過提示詞要求它在 commit 時帶上 `--author` 參數](https://github.com/jim60105/copilot-prompt/blob/master/.github/instructions/applyall_git.instructions.md#commit-command-template)；專案層級不設定 Author；使用者層級設定我的個人帳號。
 
 一點心得提供給各位參考 👍
@@ -58,7 +58,7 @@ Git 透過多個來源讀取其組態設定，並依照嚴格的優先順序來�
 
 * **`GIT_CONFIG_KEY_<KEY>`**: 這是 Git 提供的一種強大機制，可以透過環境變數直接設定任何 `git config` 的值。 ~~變數名稱的 `<KEY>` 部分會被轉換為小寫並將底線 `_` 轉換為點 `.`。例如，`GIT_CONFIG_KEY_USER_NAME` 會對應到 `user.name`。~~
 
-  {% editor_note() %}
+  {% alert(edit=true) %}
   這邊 AI 的回答是錯誤的，事實上這功能得像下方這樣子用:
 
   ```bash
@@ -74,7 +74,7 @@ Git 透過多個來源讀取其組態設定，並依照嚴格的優先順序來�
   {% end %}
 
 * **行為控制變數**: Git 也定義了許多用來控制特定功能的環境變數，它們會覆蓋設定檔中的對應項目 [^4][^8]。
-  {% editor_note() %}
+  {% alert(edit=true) %}
   這些並不是全部的 Git 設定值都有，請參考這份官方文件:
   
   <https://git-scm.com/book/be/v2/Git-Internals-Environment-Variables>

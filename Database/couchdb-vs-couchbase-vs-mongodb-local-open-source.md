@@ -13,7 +13,7 @@ licenses = [ "GFDL 1.3" ]
 [extra]
 withAI = "<https://felo.ai/search/j5D9izCYTMhb38TQKgShpx?invite=dOLYGeJyZJqVX>"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 CouchDB 是基於 HTTP RESTful API 設計，從 client 直連 DB  
 超酷！ 😎
 {% end %}

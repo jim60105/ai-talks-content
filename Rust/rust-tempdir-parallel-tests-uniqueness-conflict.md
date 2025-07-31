@@ -13,7 +13,7 @@ licenses = [ "GFDL 1.3" ]
 [extra]
 withAI = "<https://felo.ai/search/SKynbzHhVDe4SwYqzuNHrg?invite=dOLYGeJyZJqVX>"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 我的中英夾雜菜英文 🤪 反正 AI 看得懂。
 
 密技: {% ch() %}*「幫我把以下文字翻譯成很難的英文」*  

@@ -13,7 +13,7 @@ licenses = [ "GFDL 1.3" ]
 [extra]
 withAI = "<https://felo.ai/search/8nbwQkvM9Lv46q3MptvAG5?invite=dOLYGeJyZJqVX>"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 我最喜歡問這種「why A over B」的問題了 😝
 {% end %}
 

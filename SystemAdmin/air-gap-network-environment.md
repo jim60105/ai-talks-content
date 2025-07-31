@@ -13,7 +13,7 @@ licenses = [ "GFDL 1.3" ]
 [extra]
 withAI = "<https://felo.ai/search/RKeXU9vsXGvpX9TXYCCLww?invite=dOLYGeJyZJqVX>"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 發現有同事沒聽過「氣隙 (Air gap) 網路環境」這個說法，他稱為「斷網環境」、「沒網路」之類的。
 
 讓 AI 證實一下這名字不是我亂叫的！😆

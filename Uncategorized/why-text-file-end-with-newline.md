@@ -13,7 +13,7 @@ licenses = [ "GFDL 1.3" ]
 [extra]
 withAI = "<https://felo.ai/search/oCKPWwPo8n5kEgrXo9j3X9?invite=dOLYGeJyZJqVX>"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 記得當時 tech lead 在公司內釋出了一份 `.editorconfig` (C# 的專案層級規範文件)，其中定義了*不*以換行符結尾。這和我的個人習慣不同，且以換行符結尾是有歷史意義的。於是我當時做了這份 Felo Search 來輔佐我的觀點，提議改變規範。
 {% end %}
 

@@ -16,7 +16,7 @@ withAI = "<https://felo.ai/search/asDBVL3ayHwqbatyLbNbQS?invite=dOLYGeJyZJqVX>"
   [extra.comments]
   id = "114931637121182345"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 你現在看到的頁面「聆.tw」就是中文網域喔！中文網域在瀏覧器上的支援度很好，但是在電子郵件系統上仍有待加強。
 {% end %}
 
@@ -145,7 +145,7 @@ EAI 的普及率遠低於 IDN。儘管技術標準已趨於成熟，但全球的
 
 3. **最佳實踐**：為了確保最高的通訊可靠性與專業性，強烈建議您註冊一個對應的 ASCII 網域，並使用該網域設定您的主要電子郵件地址。您可以將中文網域 `琳.tw` 用於網站，並在網站上標示您的 ASCII 電子郵件地址，這樣既能享受中文網域的品牌效益，又能確保電子郵件通訊的穩定與順暢。
 
-{% editor_note() %}
+{% alert(edit=true) %}
 讀完這篇文章後，我註冊了 `ChenJ.im` 作為我的 email 網域 👀✨
 
 話說 Felo Search 這篇文章真的寫得很讚！

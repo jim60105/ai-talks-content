@@ -99,7 +99,7 @@ git config --file=.gitmodules submodule.themes/hugo-coder.url https://github.com
 
 1. 移除子模組
 
-   {% editor_note() %}
+   {% alert(edit=true) %}
    我每次移除 submodule 總是忘記 deinit 😅
    {% end %}
 

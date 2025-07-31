@@ -13,7 +13,7 @@ licenses = [ "GFDL 1.3" ]
 [extra]
 withAI = "<https://felo.ai/search/UyX9p4obmzJ3eUZtvre7pw?invite=dOLYGeJyZJqVX>"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 這篇提問想分享的其實是如何快速使用 Felo Search 找到出處和參考資料。
 
 在實作網頁極致調校時，字體加載速度是一項必定要改善的項目。有時從上一個專案中抄東西過來改，會忘記原本這個東西怎麼使用，而想要查找參考資料和文件。這時候像是 Felo Search 這樣的服務就非常有用。
@@ -59,7 +59,7 @@ explain the "text" parameters here and give me the references
 
 這些參數的使用可以顯著提升網頁的性能，特別是在需要使用大量自定義字體的情況下。
 
-{% editor_note() %}
+{% alert(edit=true) %}
 上面第三項參考資料是 AI 幻覺，它瞎掰的。
 {% end %}
 

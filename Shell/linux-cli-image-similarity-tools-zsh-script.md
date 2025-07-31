@@ -13,7 +13,7 @@ licenses = [ "GFDL 1.3" ]
 [extra]
 withAI = "<https://felo.ai/search/JuprGJPBkjSbg7NLJPAQ6C?invite=dOLYGeJyZJqVX>"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 我後來在 [jim60105/image-dataset-prep-tools](https://github.com/jim60105/image-dataset-prep-tools) 專案中使用了 `czkawka_cli` 工具。
 {% end %}
 

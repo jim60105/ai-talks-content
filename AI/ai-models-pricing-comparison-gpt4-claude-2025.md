@@ -13,7 +13,7 @@ licenses = [ "GFDL 1.3" ]
 [extra]
 withAI = "<https://felo.ai/search/NjLh7c46LKJwnYkHyoN5Hf?invite=dOLYGeJyZJqVX>"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 這篇想展示的是 Felo Search 擁有很好的網頁查詢能力，可以基於多個網路來源整理資料。
 {% end %}
 

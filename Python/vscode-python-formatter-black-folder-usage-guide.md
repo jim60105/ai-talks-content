@@ -45,7 +45,7 @@ what is the default or 推薦的 python formatter in VSCode?
 
 設定完成後，即可透過快捷鍵（Windows/Linux：`Shift+Alt+F`；macOS：`Option+Shift+F`）或儲存檔案時自動格式化（於設定中開啟 `editor.formatOnSave`）來統一程式碼風格。
 
-{% editor_note() %}
+{% alert(edit=true) %}
 我後來在 [jim60105/standalone-civitai-shortcut](https://github.com/jim60105/standalone-civitai-shortcut) 中 採用 black
 {% end %}
 

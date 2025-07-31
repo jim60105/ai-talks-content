@@ -13,7 +13,7 @@ licenses = [ "GFDL 1.3" ]
 [extra]
 withAI = "<https://felo.ai/search/SqeGk4iPRXT4UUo943tGug?invite=dOLYGeJyZJqVX>"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 TL;DR: 最後我由 `std::fs::copy` 改用 `std::io::copy` 就搞定了。
 {% end %}
 

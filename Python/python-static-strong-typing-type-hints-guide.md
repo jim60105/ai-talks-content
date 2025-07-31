@@ -13,7 +13,7 @@ licenses = [ "GFDL 1.3" ]
 [extra]
 withAI = "<https://felo.ai/search/aBYFYpCZxRoNuB58urd3Wx?invite=dOLYGeJyZJqVX>"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 最近因為 AI 開始寫一些 Python，身為一位 C#/Rust 工程師，我對 Python 的「型別太過自由」不大滿意。不過其實只要加上了型別提示，就一樣能在編譯階段發現問題！
 {% end %}
 

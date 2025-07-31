@@ -13,7 +13,7 @@ licenses = [ "GFDL 1.3" ]
 [extra]
 withAI = "<https://felo.ai/search/4qVpxeFBNF4hELWxJVv2E5?invite=dOLYGeJyZJqVX>"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 我個人最後在 Meta 官網買了 Meta Quest 3，以 Paypal 付款就不會被擋刷卡了！
 {% end %}
 

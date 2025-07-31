@@ -13,7 +13,7 @@ licenses = [ "GFDL 1.3" ]
 [extra]
 withAI = "<https://felo.ai/search/H7DfSyVZNTYwxogxpF2M2H?invite=dOLYGeJyZJqVX>"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 三月員工旅遊去菲律賓，看到好多大輪徑速可達產生的疑問。
 
 確實，他們路有夠爛。🙃

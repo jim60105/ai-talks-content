@@ -19,22 +19,22 @@ licenses = [ "GFDL 1.3" ]
 ### 基本使用
 
 ```markdown
-{%/* editor_note() */%}
+{%/* alert(edit=true) */%}
 編輯者的備註內容
 {%/* end */%}
 ```
 
 ### 展示範例
 
-{% editor_note() %}
+{% alert(edit=true) %}
 這篇文章是根據 2024 年的資料整理而成，部分數據可能已有所變動，請以最新官方資訊為準。
 {% end %}
 
-{% editor_note() %}
+{% alert(edit=true) %}
 本段落的程式碼範例已更新至最新版本的 API，舊版本使用者請注意相容性問題。
 {% end %}
 
-{% editor_note() %}
+{% alert(edit=true) %}
 編按也支援 **Markdown** 格式，包含：
 
 - 列表項目

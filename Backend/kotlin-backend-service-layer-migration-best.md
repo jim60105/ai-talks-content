@@ -13,7 +13,7 @@ licenses = [ "GFDL 1.3" ]
 [extra]
 withAI = "<https://felo.ai/search/5AdtYNriKsZAr497zTJEmR?invite=dOLYGeJyZJqVX>"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 其實在學 Kotlin 的不是我，是另一位認識的網友。  
 我幫他 code review 之後發現他沒有做 service layer。
 

@@ -14,7 +14,7 @@ licenses = [ "GFDL 1.3" ]
 withAI = "<https://felo.ai/search/VBceeXNyTwxPMppyRhdgeE?invite=dOLYGeJyZJqVX>"
 disclaimer = "本文為 2025 年 7 月透過網路公開資訊進行的計算實驗。真實交易手續費依照各交易所實際公告為準。"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 選 Polygon 鏈的原因是其低廉的交易手續費和非常快速的交易確認時間。
 
 另請注意：穩定幣在日本支援的交易所極少，轉帳去日本時建議避開穩定幣。

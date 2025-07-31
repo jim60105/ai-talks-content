@@ -124,7 +124,7 @@ function truncateByBytes(text, maxBytes) {
 
 此方案可同時處理中英文混雜情境，確保裁切後不產生亂碼[^10]。
 
-{% editor_note() %}
+{% alert(edit=true) %}
 一言以蔽之：≤255 bytes  
 若是單純以字元數來計算，由於中文字元可以佔三個 bytes  
 保險起見總路徑長度不要超過 85 字元。

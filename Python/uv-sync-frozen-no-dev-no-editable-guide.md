@@ -69,7 +69,7 @@ uv tool install --system .
 
 ## 在 Docker 中的應用
 
-{% editor_note() %}
+{% alert(edit=true) %}
 這是我自己在容器中處理 uv 的方法:  
 [kohya-ss-gui.Dockerfile - jim60105/Containerfile-template](https://github.com/jim60105/Containerfile-template/blob/ccba4a92584e486d1efa061cee4f99677f0f8ce3/python/ML/kohya-ss-gui.Dockerfile#L54-L100)
 {% end %}

@@ -15,7 +15,7 @@ withAI = "<https://felo.ai/search/UVaEcujeyHktNgPHC6aeju?invite=dOLYGeJyZJqVX>"
 disclaimer = "所有資訊內容僅供使用者作為參考之用途，不構成任何個人之意見或判斷，亦不構成任何投資建議，本人亦不保證其各項資訊內容之完整性、即時性及精確性。"
 archive = "本文內容是五月初當時的情況，已過時。"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 是說我沒有要買美元，我只是問好玩的  
 我的財產並沒有多到能靠法幣匯差賺錢 🤪
 

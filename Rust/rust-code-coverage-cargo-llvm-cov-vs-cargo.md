@@ -94,7 +94,7 @@ withAI = "<https://felo.ai/search/5asxbGvRnbJgTqQxmgj3ZF?invite=dOLYGeJyZJqVX>"
 
 目前來看，對於大多數 Rust 專案，如果追求準確性、詳細的覆蓋資訊（包含區域覆蓋）以及更好的平台支援，`cargo llvm-cov` 會是更優先的選擇 [^15][^17][^82][^88]。儘管分支覆蓋率在兩個工具中都還不是完美狀態，但 `cargo-llvm-cov` 在其他方面的優勢使其更具吸引力。如果專案有嚴格限制必須在特定舊環境的穩定版 Rust 上使用 `cargo-tarpaulin` 且無法升級，則可繼續使用後者，但應了解其可能的限制。
 
-{% editor_note() %}
+{% alert(edit=true) %}
 我後來在 [subx-cli](https://github.com/jim60105/subx-cli) 專案中採用 cargo llvm-cov
 {% end %}
 

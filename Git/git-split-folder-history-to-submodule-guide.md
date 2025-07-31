@@ -13,7 +13,7 @@ licenses = [ "GFDL 1.3" ]
 [extra]
 withAI = "<https://felo.ai/search/UqbWZeznB3uZARr3aTMD2e?invite=dOLYGeJyZJqVX>"
 +++
-{% editor_note() %}
+{% alert(edit=true) %}
 我後來使用 `git filter-repo` 搞定部落格的 content 拆分，使得內容部落格更新和部落格程式碼的歷史不會混在一起。
 {% end %}
 
