@@ -8,7 +8,7 @@ draft = false
 [taxonomies]
 tags = [ "Cryptocurrency", "ETH", "Polygon" ]
 providers = [ "Felo Search" ]
-licenses = [ "GFDL 1.3" ]
+
 
 [extra]
 withAI = "<https://felo.ai/search/2a99aCaJbXHVHaUAjxA6bo?invite=dOLYGeJyZJqVX>"

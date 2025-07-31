@@ -4,7 +4,7 @@ description = "GNU Free Documentation License"
 date = "0000-01-01T00:00:00.000Z"
 
 [taxonomies]
-licenses = [ "GFDL 1.3" ]
+
 +++
 <aside>
 

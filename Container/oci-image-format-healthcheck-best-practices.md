@@ -8,7 +8,7 @@ draft = false
 [taxonomies]
 tags = [ "Container", "Podman" ]
 providers = [ "Felo Search" ]
-licenses = [ "GFDL 1.3" ]
+
 
 [extra]
 withAI = "<https://felo.ai/search/5iDxPKwKMsQDk8Ta6xPxNB?invite=dOLYGeJyZJqVX>"

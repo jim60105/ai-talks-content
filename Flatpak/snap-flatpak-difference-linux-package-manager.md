@@ -8,7 +8,7 @@ draft = false
 [taxonomies]
 tags = [ "Flatpak", "Linux", "Package Manager" ]
 providers = [ "Felo Search" ]
-licenses = [ "GFDL 1.3" ]
+
 
 [extra]
 withAI = "<https://felo.ai/search/PToJh2VpUzAogCqot7FvGR?invite=dOLYGeJyZJqVX>"

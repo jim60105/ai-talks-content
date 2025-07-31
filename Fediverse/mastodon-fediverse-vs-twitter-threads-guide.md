@@ -8,7 +8,6 @@ draft = false
 [taxonomies]
 tags = [ "Mastodon", "Fediverse" ]
 providers = [ "Felo Search" ]
-licenses = [ "GFDL 1.3" ]
 
 [extra]
 withAI = "<https://felo.ai/search/QnydUiUwqnYmsYCs5fkPrh?invite=dOLYGeJyZJqVX>"

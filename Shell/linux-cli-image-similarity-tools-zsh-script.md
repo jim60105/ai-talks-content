@@ -8,7 +8,7 @@ draft = false
 [taxonomies]
 tags = [ "Linux", "Zsh" ]
 providers = [ "Felo Search" ]
-licenses = [ "GFDL 1.3" ]
+
 
 [extra]
 withAI = "<https://felo.ai/search/JuprGJPBkjSbg7NLJPAQ6C?invite=dOLYGeJyZJqVX>"

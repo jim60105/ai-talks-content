@@ -8,7 +8,7 @@ draft = false
 [taxonomies]
 tags = [ "AdGuard", "Cloudflare" ]
 providers = [ "Felo Search" ]
-licenses = [ "GFDL 1.3" ]
+
 
 [extra]
 withAI = "<https://felo.ai/search/ajoH65hjJRax5TYkp4AASg?invite=dOLYGeJyZJqVX>"

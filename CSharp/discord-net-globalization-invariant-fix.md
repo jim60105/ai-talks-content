@@ -8,7 +8,7 @@ draft = false
 [taxonomies]
 tags = [ "C#", "Container", "Discord" ]
 providers = [ "Felo Search" ]
-licenses = [ "GFDL 1.3" ]
+
 
 [extra]
 withAI = "<https://felo.ai/search/2ZyXMkyjxbGPawwxV2Dvd4?invite=dOLYGeJyZJqVX>"

@@ -8,7 +8,7 @@ draft = false
 [taxonomies]
 tags = [ "Cryptocurrency", "Prompt Engineering", "BTC" ]
 providers = [ "Felo Search" ]
-licenses = [ "GFDL 1.3" ]
+
 
 [extra]
 withAI = "<https://felo.ai/search/Kuw9JC55gKsAqJbk65zNhy?invite=dOLYGeJyZJqVX>"

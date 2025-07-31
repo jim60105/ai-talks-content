@@ -8,7 +8,7 @@ draft = false
 [taxonomies]
 tags = [ "RHEL/Fedora", "System Admin", "Linux" ]
 providers = [ "Felo Search" ]
-licenses = [ "GFDL 1.3" ]
+
 
 [extra]
 withAI = "<https://felo.ai/search/CYiPmeSgAw3BJ6892jMJrJ?invite=dOLYGeJyZJqVX>"

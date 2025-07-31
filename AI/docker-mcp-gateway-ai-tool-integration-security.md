@@ -8,7 +8,7 @@ draft = false
 [taxonomies]
 tags = [ "Docker", "Container", "LLM" ]
 providers = [ "Felo Search" ]
-licenses = [ "GFDL 1.3" ]
+
 
 [extra]
 withAI = "<https://felo.ai/search/muPY9QHhmRTeDXsWo6ZUTU?invite=dOLYGeJyZJqVX>"

@@ -8,7 +8,7 @@ draft = false
 [taxonomies]
 tags = [ "Database" ]
 providers = [ "Felo Search" ]
-licenses = [ "GFDL 1.3" ]
+
 
 [extra]
 withAI = "<https://felo.ai/search/j5D9izCYTMhb38TQKgShpx?invite=dOLYGeJyZJqVX>"

@@ -8,7 +8,7 @@ draft = false
 [taxonomies]
 tags = [ "Rust", "Linux" ]
 providers = [ "Felo Search" ]
-licenses = [ "GFDL 1.3" ]
+
 
 [extra]
 withAI = "<https://felo.ai/search/SqeGk4iPRXT4UUo943tGug?invite=dOLYGeJyZJqVX>"

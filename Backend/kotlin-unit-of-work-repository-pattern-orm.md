@@ -6,9 +6,15 @@ updated = "2025-07-28T04:22:20.194Z"
 draft = false
 
 [taxonomies]
-tags = [ "Backend", "Kotlin", "Database", "Design Pattern", "Prompt Engineering" ]
+tags = [
+  "Backend",
+  "Kotlin",
+  "Database",
+  "Design Pattern",
+  "Prompt Engineering"
+]
 providers = [ "Felo Search" ]
-licenses = [ "GFDL 1.3" ]
+
 
 [extra]
 withAI = "<https://felo.ai/search/YyHPp6unwvsnaVwkFsWb9K?invite=dOLYGeJyZJqVX>"

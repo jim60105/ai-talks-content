@@ -8,7 +8,7 @@ draft = false
 [taxonomies]
 tags = [ "npm", "pnpm", "Package Manager" ]
 providers = [ "Felo Search" ]
-licenses = [ "GFDL 1.3" ]
+
 
 [extra]
 withAI = "<https://felo.ai/search/8nbwQkvM9Lv46q3MptvAG5?invite=dOLYGeJyZJqVX>"

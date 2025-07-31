@@ -7,7 +7,7 @@ draft = true
 
 [taxonomies]
 tags = [ ]
-licenses = [ "GFDL 1.3" ]
+
 +++
 
 這個頁面展示各種自訂 shortcode 功能，讓你了解如何在文章中使用這些實用的元件。

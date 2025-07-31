@@ -8,7 +8,7 @@ draft = false
 [taxonomies]
 tags = [ "YouTube", "Discord" ]
 providers = [ "Felo Search" ]
-licenses = [ "GFDL 1.3" ]
+
 
 [extra]
 withAI = "<https://felo.ai/search/TMqEDuVTNAudpeT9uUj6pL?invite=dOLYGeJyZJqVX>"

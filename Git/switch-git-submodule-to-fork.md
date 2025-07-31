@@ -8,7 +8,7 @@ draft = false
 [taxonomies]
 tags = [ "Git", "DevOps" ]
 providers = [ "Felo Search" ]
-licenses = [ "GFDL 1.3" ]
+
 
 [extra]
 withAI = "<https://felo.ai/search/bxRn55eiJVn59BGB9LQBq7?invite=dOLYGeJyZJqVX>"
