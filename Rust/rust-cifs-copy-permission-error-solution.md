@@ -266,7 +266,7 @@ fn copy_file_to_cifs(source: &Path, destination: &Path) -> io::Result<u64> {
 
 一個 `/etc/fstab` 的範例如下：
 
-```fstab
+```txt
 # 在原有的選項基礎上加入 noperm
 //192.168.1.100/share /mnt/cifs cifs credentials=/root/.smb,uid=1000,gid=1000,file_mode=0777,dir_mode=0777,noperm 0 0
 ```

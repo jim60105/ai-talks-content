@@ -61,7 +61,7 @@ I'm using globalization-invariant mode, how to let discord .net work without 特
 4. **檢查文化設定**：
    在你的代碼中，檢查是否有任何地方使用了特定的文化設定。如果有，考慮將其改為使用不變文化（Invariant Culture），例如：
 
-   ```csharp
+   ```cs
    var cultureInfo = CultureInfo.InvariantCulture;
    ```
 
