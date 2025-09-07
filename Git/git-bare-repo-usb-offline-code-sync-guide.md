@@ -69,6 +69,58 @@ USB 隨身碟的快閃記憶體 (flash memory) 在設計上有其讀寫次數的
 
 相對地，將 USB 隨身碟作為一個裸儲存庫，僅在同步時執行 `git push` 操作，這是一個相對低頻率的批次寫入動作 [^25]。這種模式大幅減少了對隨身碟的零碎讀寫，能有效延長其使用壽命，使其成為一個更可靠的程式碼中介載體 [^13][^23]。
 
+## 環境架構與操作流程
+
+### 外網環境：A 電腦與 USB 同步
+
+```mermaid
+flowchart LR
+    %% 定義節點
+    A["🖥️ A 電腦本地 Git 儲存庫<br/>（外網開發機）"]
+    USB["💾 USB 隨身碟<br/>（Bare Repository）"]
+    
+    %% 操作流程箭頭
+    USB -->|"1️⃣ git clone/pull<br/>（複製到本機開發）"| A
+    A -->|"2️⃣ git push<br/>（推送開發變更）"| USB
+    
+    %% 物理連接
+    USB -.->|"📌 物理連接"| A
+    
+    %% 樣式設定
+    classDef computerStyle fill:#e1f5fe,stroke:#0277bd,stroke-width:2px
+    classDef usbStyle fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
+    
+    class A computerStyle
+    class USB usbStyle
+```
+
+### 內網環境：B 電腦操作 USB 與 Git Remote 同步
+
+```mermaid
+flowchart LR
+    %% 定義節點
+    B["🖥️ B 電腦<br/>（內網中介）"]
+    USB["💾 USB 隨身碟<br/>（Bare Repository）"]
+    Remote["🌐 Git Remote<br/>（內網儲存庫）"]
+    
+    %% 操作流程箭頭
+    Remote -.->|"1️⃣ git clone --bare<br/>（首次設定）"| USB
+    Remote -->|"1️⃣ git pull<br/>（更新 USB）"| USB
+    USB -->|"2️⃣ git push origin refs/heads/*<br/>（同步到遠端）"| Remote
+    
+    %% 物理連接
+    USB -.->|"📌 物理連接"| B
+    
+    %% 樣式設定
+    classDef computerStyle fill:#e1f5fe,stroke:#0277bd,stroke-width:2px
+    classDef usbStyle fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
+    classDef remoteStyle fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
+    
+    class B computerStyle
+    class USB usbStyle
+    class Remote remoteStyle
+```
+
 ## 步驟一：在 B 電腦建立 USB 裸儲存庫 (首次設定)
 
 此步驟的目標是將遠端伺服器 (如 GitHub、GitLab) 上的現有儲存庫，以裸儲存庫的形式完整複製到 USB 隨身碟上。此操作在具有網路存取權限的 B 電腦上執行。
@@ -187,7 +239,7 @@ USB 隨身碟的快閃記憶體 (flash memory) 在設計上有其讀寫次數的
 
     指令碼會自動完成所有操作，將你在 A 電腦上的工作成果安全地發布到遠端伺服器。
 
-# Summary
+## Summary
 
 此報告詳細介紹了一個利用 USB 隨身碟作為中介 Git 裸儲存庫的離線開發工作流程。該方法有效地結合了 Git 的分散式特性與實體媒介的便攜性，為在網路受限環境下進行版本控制提供了可靠的解決方案 [^3][^20][^31]。透過在 USB 上使用裸儲存庫而非標準儲存庫，避免了因頻繁讀寫而導致的硬體耗損問題，確保了資料的完整性與媒介的耐用性 [^23][^25]。從初次設定、離線開發到最終的遠端同步，每個步驟都提供了清晰的指令和解釋，並附上自動化 PowerShell 指令碼，使整個流程高效且不易出錯。此工作流程不僅適用於個人在多台裝置間同步工作，也為需要在隔離網路中進行協作的團隊提供了一個實用的參考模型 [^3][^15]。
 
