@@ -10,7 +10,7 @@ tags = [ "DevOps", "Git", "PowerShell", "Prompt Engineering" ]
 providers = [ "Felo Search" ]
 
 [extra]
-withAI = "https://felo.ai/search/mfEhvfZoWsee7ZGX7E7fXd?invite=dOLYGeJyZJqVX"
+withAI = "<https://felo.ai/search/mfEhvfZoWsee7ZGX7E7fXd?invite=dOLYGeJyZJqVX>"
 +++
 {% alert(edit=true) %}
 我的情境在提示詞中描述得不夠清楚，導致 Felo 的回答和實際不太相符，但內容是合用的。它把內外網搞反了 😅
