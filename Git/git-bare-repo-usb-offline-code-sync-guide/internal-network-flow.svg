@@ -1,0 +1,74 @@
+<svg width="900" height="350"
+    xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+    <!-- Background -->
+    <rect x="0" y="0" width="100%" height="100%" fill="white"/>
+
+    <!-- SVG 定義區: 箭頭樣式 -->
+    <defs>
+        <marker id="arrowhead-green" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#2e7d32" />
+        </marker>
+        <marker id="arrowhead-orange" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#ef6c00" />
+        </marker>
+    </defs>
+
+    <!-- 節點: B 電腦 -->
+    <g transform="translate(30, 110)">
+        <rect x="0" y="0" width="200" height="90" rx="15" ry="15" fill="#e1f5fe" stroke="#0277bd" stroke-width="2"/>
+        <text x="100" y="40" font-size="16" text-anchor="middle" fill="#333">
+            <tspan>🖥️ B 電腦</tspan>
+            <tspan x="100" dy="1.4em">（內網中介）</tspan>
+        </text>
+    </g>
+
+    <!-- 節點: USB -->
+    <g transform="translate(310, 110)">
+        <rect x="0" y="0" width="240" height="90" rx="15" ry="15" fill="#fff3e0" stroke="#ef6c00" stroke-width="2"/>
+        <text x="120" y="40" font-size="16" text-anchor="middle" fill="#333">
+            <tspan>💾 USB 隨身碟</tspan>
+            <tspan x="120" dy="1.4em">（Bare Repo）</tspan>
+        </text>
+    </g>
+
+    <!-- 節點: Git Remote -->
+    <g transform="translate(630, 110)">
+        <rect x="0" y="0" width="200" height="90" rx="15" ry="15" fill="#e8f5e8" stroke="#2e7d32" stroke-width="2"/>
+        <text x="100" y="40" font-size="16" text-anchor="middle" fill="#333">
+            <tspan>🌐 內網遠端儲存庫</tspan>
+            <tspan x="100" dy="1.4em">（Git Remote）</tspan>
+        </text>
+    </g>
+
+    <g>
+        <line x1="230" y1="155" x2="310" y2="155" stroke="#555" stroke-width="2" stroke-dasharray="5,5"/>
+        <text x="270" y="180" font-size="14" text-anchor="middle" fill="#555">📌 物理連接</text>
+    </g>
+
+    <!-- 箭頭 1: pull -->
+    <g>
+        <path d="M 630,145 C 600,110 580,110 550,145" stroke="#2e7d32" stroke-width="2" fill="none" marker-end="url(#arrowhead-green)"/>
+        <rect x="540" y="85" width="100" height="25" fill="white" />
+        <text x="590" y="103" font-size="14" text-anchor="middle" fill="#2e7d32">1️⃣ git pull</text>
+    </g>
+
+    <g>
+        <path d="M 630,130 C 610,75 570,75 550,130" stroke="#2e7d32" stroke-width="1.5" stroke-dasharray="4,4" fill="none" marker-end="url(#arrowhead-green)"/>
+        <rect x="530" y="40" width="120" height="40" fill="white" />
+        <text x="590" y="55" font-size="14" text-anchor="middle" fill="#2e7d32">
+            <tspan>1️⃣ git clone --bare</tspan>
+            <tspan x="590" dy="1.2em">（首次設定）</tspan>
+        </text>
+    </g>
+
+    <!-- 箭頭 2: push -->
+    <g>
+        <path d="M 550,165 C 580,215 600,215 630,165" stroke="#ef6c00" stroke-width="2" fill="none" marker-end="url(#arrowhead-orange)"/>
+        <rect x="500" y="215" width="180" height="40" fill="white" />
+        <text x="590" y="230" font-size="14" text-anchor="middle" fill="#ef6c00">
+            <tspan>2️⃣ git push origin refs/heads/*</tspan>
+            <tspan x="590" dy="1.2em">（推送到遠端）</tspan>
+        </text>
+    </g>
+</svg>
+

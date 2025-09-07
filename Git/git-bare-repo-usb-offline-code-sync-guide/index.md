@@ -15,12 +15,31 @@ withAI = "https://felo.ai/search/mfEhvfZoWsee7ZGX7E7fXd?invite=dOLYGeJyZJqVX"
 {% alert(edit=true) %}
 我的情境在提示詞中描述得不夠清楚，導致 Felo 的回答和實際不太相符，但內容是合用的。它把內外網搞反了 😅
 
-實際情境是 Git remote 在內網環境，B 電腦連接內網做為中介，A 電腦是開發機器位在外網。A 電腦無法直接連接內網的 Git remote，只能透過 USB 隨身碟帶回 B 電腦再推送到內網的 Git remote。當然，在外網同步程式碼是不被允許的，程式碼不能儲存在 A、B、Git remote 之外的地方。
+## 內網環境：B 電腦操作 USB 與 Git Remote 同步
 
-我個人是覺得用 USB 插來插去很髒，但我太菜無法改變這個事實。😶‍🌫️
+<figure>
+{{ image(url="internal-network-flow.svg", alt="內網環境：B 電腦操作 USB 與 Git Remote 同步流程圖", no_hover=true) }}
+<figcaption>內網環境：B 電腦操作 USB 與 Git Remote 同步流程圖</figcaption>
+</figure>
+
+## 外網環境：A 電腦與 USB 同步
+
+<figure>
+{{ image(url="external-network-flow.svg", alt="外網環境：A 電腦與 USB 同步流程圖", no_hover=true) }}
+<figcaption>外網環境：A 電腦與 USB 同步流程圖</figcaption>
+</figure>
+
+實際情境是 Git Remote 在內網環境，B 電腦連接內網做為中介，A 電腦是開發主機禁止連接內網，只能透過 USB 隨身碟帶回 B 電腦再推送到內網的 Git Remote。當然，在外網同步程式碼被嚴格禁止，程式碼不能儲存在 A、B、USB、Git Remote 之外的地方。
 
 環境會長這樣當然是因為公司的資安政策，以及政策下的 workaround。  
-詳細原因不便多說，但若能切個獨立的 DMZ 開發網段給 A 和 Git remote 會直觀很多。
+我個人是覺得用 USB 插來插去很髒，但我太菜無法改變這個事實。😶‍🌫️  
+詳細原因不便多說，但若能切個獨立的 DMZ 開發網段給 A 和 Git Remote 會直觀很多。
+{% end %}
+
+{% alert(edit=true) %}
+從我的提示詞能看出我了解整個流程，我的目的是要產生一份詳細的指南，讓團隊的其他人也能照著做。
+
+這是讓 AI 照我的意思寫指南的提示詞用法。
 {% end %}
 
 {% chat(speaker="jim") %}
@@ -37,12 +56,6 @@ Please guide me create a Git bare repo in the USB, by cloning the repo from remo
 Guide me clone from USB bare repo to A computer.  
 Guide me push the commits to USB bare repo after doing some development tasks on A computer.  
 Guide me push the commits from USB bare repo to remote with a pwsh script on B computer.
-{% end %}
-
-{% alert(edit=true) %}
-從我的提示詞能看出我了解整個流程，我的目的是要產生一份詳細的指南，讓團隊的其他人也能照著做。
-
-這是讓 AI 照我的意思寫指南的提示詞用法。
 {% end %}
 
 {% chat(speaker="felo") %}
@@ -69,57 +82,9 @@ USB 隨身碟的快閃記憶體 (flash memory) 在設計上有其讀寫次數的
 
 相對地，將 USB 隨身碟作為一個裸儲存庫，僅在同步時執行 `git push` 操作，這是一個相對低頻率的批次寫入動作 [^25]。這種模式大幅減少了對隨身碟的零碎讀寫，能有效延長其使用壽命，使其成為一個更可靠的程式碼中介載體 [^13][^23]。
 
-## 環境架構與操作流程
-
-### 外網環境：A 電腦與 USB 同步
-
-```mermaid
-flowchart LR
-    %% 定義節點
-    A["🖥️ A 電腦本地 Git 儲存庫<br/>（外網開發機）"]
-    USB["💾 USB 隨身碟<br/>（Bare Repository）"]
-    
-    %% 操作流程箭頭
-    USB -->|"1️⃣ git clone/pull<br/>（複製到本機開發）"| A
-    A -->|"2️⃣ git push<br/>（推送開發變更）"| USB
-    
-    %% 物理連接
-    USB -.->|"📌 物理連接"| A
-    
-    %% 樣式設定
-    classDef computerStyle fill:#e1f5fe,stroke:#0277bd,stroke-width:2px
-    classDef usbStyle fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
-    
-    class A computerStyle
-    class USB usbStyle
-```
-
-### 內網環境：B 電腦操作 USB 與 Git Remote 同步
-
-```mermaid
-flowchart LR
-    %% 定義節點
-    B["🖥️ B 電腦<br/>（內網中介）"]
-    USB["💾 USB 隨身碟<br/>（Bare Repository）"]
-    Remote["🌐 Git Remote<br/>（內網儲存庫）"]
-    
-    %% 操作流程箭頭
-    Remote -.->|"1️⃣ git clone --bare<br/>（首次設定）"| USB
-    Remote -->|"1️⃣ git pull<br/>（更新 USB）"| USB
-    USB -->|"2️⃣ git push origin refs/heads/*<br/>（同步到遠端）"| Remote
-    
-    %% 物理連接
-    USB -.->|"📌 物理連接"| B
-    
-    %% 樣式設定
-    classDef computerStyle fill:#e1f5fe,stroke:#0277bd,stroke-width:2px
-    classDef usbStyle fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
-    classDef remoteStyle fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
-    
-    class B computerStyle
-    class USB usbStyle
-    class Remote remoteStyle
-```
+{% alert(edit=true) %}
+無論如何，USB 仍是隨時會壞掉的東西，務必隨時和遠端儲存庫保持同步。
+{% end %}
 
 ## 步驟一：在 B 電腦建立 USB 裸儲存庫 (首次設定)
 
@@ -183,6 +148,10 @@ flowchart LR
 ## 步驟三：在 B 電腦透過 PowerShell 將 USB 變更推送到遠端
 
 最後一步是將攜帶最新程式碼的 USB 隨身碟帶回 B 電腦，並將其上的變更同步到真正的遠端伺服器。為了簡化這個重複性任務，我們將建立一個 PowerShell 指令碼來自動化此流程。
+
+{% alert(edit=true) %}
+這裡應該要先 `git fetch` 再 `git push`，並且僅推送你的開發分支，以避免衝突。
+{% end %}
 
 1. **建立 PowerShell 指令碼**:
     在 B 電腦上，建立一個名為 `Sync-To-Remote.ps1` 的檔案，並貼上以下內容。這個指令碼會接收 USB 裸儲存庫的路徑作為參數，進入該目錄，然後執行 `git push` 指令 [^22]。
