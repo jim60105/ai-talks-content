@@ -11,6 +11,7 @@ providers = [ "Felo Search" ]
 
 [extra]
 withAI = "<https://felo.ai/search/ajoH65hjJRax5TYkp4AASg?invite=dOLYGeJyZJqVX>"
+hot = true
 +++
 {% alert(edit=true) %}
 TL;DR: 把這條加到你的 AdGuard 過濾器條件
