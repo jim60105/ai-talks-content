@@ -57,7 +57,7 @@ Warn: 我想要的不是 github/spec-kit 的工具使用教學、不是 GitHub C
   * **{{ cr(body="除錯與維護困難")}}**：由於程式碼並非由開發者親手撰寫，一旦出現問題，除錯過程將變得極其困難，長期維護成本高昂[^14][^104]。
   * **{{ cr(body="信任度低")}}**：僅有 43% 的開發人員對 AI 輸出的結果信任度較高，這顯示了業界對其可靠性的普遍疑慮[^2]。
 
-Vibe Coding 的出現揭示了一個核心矛盾：我們獲得了前所未有的開發速度，卻犧牲了軟體工程最重視的品質、可維護性和安全性。這正是 Spec-Driven Development 試圖解決的根本問題。
+{{ color(body="Vibe Coding 的出現揭示了一個核心矛盾：我們獲得了前所未有的開發速度，卻犧牲了軟體工程最重視的品質、可維護性和安全性。這正是 Spec-Driven Development 試圖解決的根本問題。", color="blue", halo=true) }}
 
 ### 深入解析：規格驅動開發 (Spec-Driven Development, SDD)
 
@@ -222,6 +222,12 @@ Warn: 本指南不應涉及 GitHub Copilot Coding Agent，這是另一個完全�
 
 最終產出的 GitHub Issue，成為連接「規劃階段」與「執行階段」的關鍵橋樑。
 
+{% alert(edit=true) %}
+我有一份專門用來產出高品質 GitHub Issue 的 Github Copilot prompt，在此提供給讀者參考
+
+[create-plan.prompt.md - jim60105/copilot-prompt](https://github.com/jim60105/copilot-prompt/blob/master/.github/prompts/create-plan.prompt.md)
+{% end %}
+
 ### 階段二：Codex CLI 的自主實作與迭代
 
 當 GitHub Issue 建立完成後，開發流程進入下一個核心階段：由本地 AI 代理 Codex CLI 接手執行。人類的角色從「指導者」轉變為「監督者」。
@@ -247,6 +253,12 @@ Warn: 本指南不應涉及 GitHub Copilot Coding Agent，這是另一個完全�
     * 具體的變更說明。
     * 執行的關鍵指令與其輸出日誌。
     * 引用其修改或參考過的檔案路徑與行號，提供完整的可驗證性與可追溯性[^1005]。
+
+{% alert(edit=true) %}
+這是用來實作 Issue 並提交 PR 的 prompt
+
+[implement-plan.prompt.md - jim60105/copilot-prompt](https://github.com/jim60105/copilot-prompt/blob/master/.github/prompts/implement-plan.prompt.md)
+{% end %}
 
 ### 階段三：人類審查與修正循環
 
@@ -293,7 +305,7 @@ AI 完成了初步的實作與報告後，控制權再次交還給人類工程�
 
 本報告所闡述的整合工作流程，不僅是 SDD 理論的一個具體實踐，更代表了 AI 驅動軟體開發走向成熟的一個重要里程碑。它成功地將 GitHub Copilot 的互動式輔助能力與 Codex CLI 的自主代理能力結合，在 DevOps 平台上形成了一個從意圖到交付的閉環自動化系統。
 
-展望未來，隨著 AI 代理能力的進一步增強，特別是像 GPT-5-Codex 這樣專為程式碼任務優化的模型的出現，我們可以預見此工作流程將會更加流暢與整合[^1004][^1029][^1112]。目前在 Copilot 和 Codex CLI 之間清晰的職責劃分可能會逐漸模糊，演化為一個更統一、更強大的「開發超級代理」。這個代理或許能夠在接收到一個高層次的 GitHub Issue 後，自主完成從規劃、設計、編碼、測試、報告到修正的全過程，而人類開發者的角色將徹底轉變為專案的「首席架構師」與「產品策略師」，專注於定義「做什麼」與「為何做」，而將「如何做」的絕大部分工作安心地委託給 AI。
+展望未來，隨著 AI 代理能力的進一步增強，特別是像 [GPT-5-Codex](https://openai.com/index/introducing-upgrades-to-codex/) 這樣專為程式碼任務優化的模型的出現，我們可以預見此工作流程將會更加流暢與整合[^1004][^1029][^1112]。目前在 Copilot 和 Codex CLI 之間清晰的職責劃分可能會逐漸模糊，演化為一個更統一、更強大的「開發超級代理」。這個代理或許能夠在接收到一個高層次的 GitHub Issue 後，自主完成從規劃、設計、編碼、測試、報告到修正的全過程，而人類開發者的角色將徹底轉變為專案的「首席架構師」與「產品策略師」，專注於定義「做什麼」與「為何做」，而將「如何做」的絕大部分工作安心地委託給 AI。
 
 [^1]: [重塑软件工程的未来：规范驱动的AI 编程代理 - Linguista](https://linguista.bearblog.dev/spec-driven-future-ai-agents-software-engineering/)
 [^2]: [從Vibe Coding 到Spec 驅動開發一、背景](https://www.facebook.com/DavidLearningJourney/posts/-%E5%BE%9E-vibe-coding-%E5%88%B0-spec-%E9%A9%85%E5%8B%95%E9%96%8B%E7%99%BC%E4%B8%80%E8%83%8C%E6%99%AFvibe-coding-%E5%9C%A8%E5%B9%B4%E5%88%9D%E6%89%8D%E9%96%8B%E5%A7%8B%E6%B5%81%E8%A1%8C-vibe-coding-%E6%98%AF%E7%94%B1-andrej-karpathy/1310361217764340/)
