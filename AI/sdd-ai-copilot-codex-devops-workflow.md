@@ -223,7 +223,7 @@ Warn: 本指南不應涉及 GitHub Copilot Coding Agent，這是另一個完全�
 最終產出的 GitHub Issue，成為連接「規劃階段」與「執行階段」的關鍵橋樑。
 
 {% alert(edit=true) %}
-我有一份專門用來產出高品質 GitHub Issue 的 Github Copilot prompt，在此提供給讀者參考
+我有一份專門用來產出高品質 GitHub Issue 的 GitHub Copilot prompt，在此提供給讀者參考
 
 [create-plan.prompt.md - jim60105/copilot-prompt](https://github.com/jim60105/copilot-prompt/blob/master/.github/prompts/create-plan.prompt.md)
 {% end %}
