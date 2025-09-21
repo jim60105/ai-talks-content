@@ -12,3 +12,4 @@ onclick
 srcset
 stylesheet
 Superclarendon
+Starknet
