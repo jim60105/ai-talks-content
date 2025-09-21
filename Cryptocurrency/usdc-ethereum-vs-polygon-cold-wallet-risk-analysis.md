@@ -24,7 +24,7 @@ withAI = "<https://felo.ai/search/gM38dLXsgKZERUHAG6bZUg?invite=dOLYGeJyZJqVX>"
 總體而言，**持有 Ethereum 鏈上的原生 USDC 風險最低**，因為它直接存在於最具安全性與去中心化共識的 Layer 1 區塊鏈上，其安全性等同於 USDC 發行方 Circle 的信譽和以太坊網路本身。其主要缺點是與資產互動（如轉移）時所需的高昂 Gas Fee。
 {% end %}
 
-**持有 Polygon 鏈上的 USDC 則引入了額外的風險層級**，主要可分為兩類：**網路自身風險**與**資產類型風險**。Polygon 作為一個 Layer 2 擴容方案，其獨立的共識機制安全性雖高，但普遍認為不及以太坊主網。更關鍵的風險在於 Polygon 上的 USDC 有「原生」與「橋接」之分。持有**橋接版 USDC (USDC.e)** 存在顯著的跨鏈橋智能合約漏洞風險，這是歷史上多次重大駭客攻擊的目標。而持有**原生版 Polygon USDC** 則可避開此橋接風險，其安全性主要取決於 Circle 的支持、Polygon 網路的穩定性以及用戶對資產合約地址的正確辨識。
+**持有 Polygon 鏈上的 USDC 則引入了額外的風險層級**，主要可分為兩類：**網路自身風險**與**資產類型風險**。Polygon 作為一個 Layer 2 擴容方案，其獨立的共識機制安全性雖高，但普遍認為不及以太坊主網。更關鍵的風險在於 Polygon 上的 USDC 有「原生」與「橋接」之分。持有**橋接版 USDC (USDC.e)** 存在顯著的跨鏈橋智慧合約漏洞風險，這是歷史上多次重大駭客攻擊的目標。而持有**原生版 Polygon USDC** 則可避開此橋接風險，其安全性主要取決於 Circle 的支持、Polygon 網路的穩定性以及用戶對資產合約地址的正確辨識。
 
 因此，風險層級由低至高排序為：**Ethereum 原生 USDC > Polygon 原生 USDC > Polygon 橋接 USDC.e**。
 

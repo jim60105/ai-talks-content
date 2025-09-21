@@ -17,7 +17,7 @@ withAI = "<https://felo.ai/search/2a99aCaJbXHVHaUAjxA6bo?invite=dOLYGeJyZJqVX>"
 {% end %}
 
 {% chat(speaker="felo") %}
-對於長期在冷錢包中持有 ETH，持有原生鏈的 ETH 風險遠低於持有 Polygon 鏈上的 ETH。原生 ETH 的安全性僅取決於以太坊主網本身，這是目前最去中心化且安全的智能合約平台之一。相較之下，Polygon 鏈上的 ETH 是一種橋接資產，其安全性不僅依賴於 Polygon 自身的共識機制，還額外引入了跨鏈橋智能合約的風險和潛在的脫鉤風險。
+對於長期在冷錢包中持有 ETH，持有原生鏈的 ETH 風險遠低於持有 Polygon 鏈上的 ETH。原生 ETH 的安全性僅取決於以太坊主網本身，這是目前最去中心化且安全的智慧合約平台之一。相較之下，Polygon 鏈上的 ETH 是一種橋接資產，其安全性不僅依賴於 Polygon 自身的共識機制，還額外引入了跨鏈橋智能合約的風險和潛在的脫鉤風險。
 {% end %}
 
 在去中心化交易所（DEX）中，無論是以太坊主網還是 Polygon 網路，都存在大量關於 ETH 的交易池。在以太坊上，交易通常使用 WETH（Wrapped ETH），而在 Polygon 上，則使用其橋接版本的 ETH。用戶可以透過跨鏈橋或跨鏈聚合器在這兩種資產之間進行兌換。
