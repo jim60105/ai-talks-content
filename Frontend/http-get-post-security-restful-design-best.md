@@ -55,7 +55,7 @@ POST 請求旨在向伺服器*提交*資料，通常用於*建立*新資源或�
 
 * **範例：**
 
-    ```http
+    ```txt,name=http
     POST /users HTTP/1.1
     Host: api.example.com
     Content-Type: application/json
