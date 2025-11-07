@@ -6,7 +6,7 @@ updated = "2025-07-27T13:12:23.739Z"
 draft = false
 
 [taxonomies]
-tags = [ "Flatpak", "Linux" ]
+tags = [ "Flatpak", "Linux", "Security" ]
 providers = [ "Felo Search" ]
 
 [extra]

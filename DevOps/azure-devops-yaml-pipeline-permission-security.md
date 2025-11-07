@@ -6,7 +6,7 @@ updated = "2025-11-07T04:00:43Z"
 draft = false
 
 [taxonomies]
-tags = [ "Azure DevOps", "DevOps", "Pipeline" ]
+tags = [ "Azure DevOps", "DevOps", "Pipeline", "Security" ]
 providers = [ "Felo Search" ]
 
 [extra]

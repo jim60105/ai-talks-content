@@ -6,7 +6,7 @@ updated = "2025-09-07T16:09:32Z"
 draft = false
 
 [taxonomies]
-tags = [ "HTTP", "RESTful", "資安", "API", "設計原則" ]
+tags = [ "Backend", "Design Pattern", "Security" ]
 providers = [ "Felo Search" ]
 
 [extra]

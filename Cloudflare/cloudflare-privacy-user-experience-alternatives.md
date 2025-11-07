@@ -6,7 +6,7 @@ updated = "2025-07-26T20:44:24.330Z"
 draft = false
 
 [taxonomies]
-tags = [ "Cloudflare", "Privacy", "Prompt Engineering" ]
+tags = [ "Cloudflare", "Privacy", "Prompt Engineering", "Security" ]
 providers = [ "Felo Search" ]
 
 [extra]
