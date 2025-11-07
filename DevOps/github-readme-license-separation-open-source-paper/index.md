@@ -4,10 +4,12 @@ description = "建立網站宣傳論文時，README.md 必須清楚區分程式�
 date = "2025-08-01T16:07:43Z"
 updated = "2025-08-02T14:45:15.702Z"
 draft = false
-aliases = [ "/Uncategorized/github-readme-license-separation-open-source-paper" ]
+aliases = [
+  "/Uncategorized/github-readme-license-separation-open-source-paper"
+]
 
 [taxonomies]
-tags = [ "License" ]
+tags = [ "License", "GitHub" ]
 providers = [ "Felo Search" ]
 
 [extra]
