@@ -11,7 +11,10 @@ providers = [ "Felo Search" ]
 
 [extra]
 withAI = "<https://felo.ai/search/mfEhvfZoWsee7ZGX7E7fXd?invite=dOLYGeJyZJqVX>"
-hot = true
+archive = """
+這篇文章已更新重寫至我的技術部落格
+
+👉 <a href="https://xn--jgy.tw/Uncategorized/git-bare-repo-enterprise-workflow-guide/">企業級 Git 裸儲存庫實戰：氣隙環境的四層架構開發流程 - 琳的備忘手札</a>"""
 +++
 {% alert(edit=true) %}
 我的情境在提示詞中描述得不夠清楚，導致 Felo 的回答和實際不太相符，但內容是合用的。它把內外網搞反了 😅
