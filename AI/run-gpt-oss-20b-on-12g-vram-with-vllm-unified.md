@@ -11,6 +11,7 @@ providers = [ "Felo Search" ]
 
 [extra]
 withAI = "<https://felo.ai/search/8UNyhKAzMzCaBkmYGPimXX?invite=dOLYGeJyZJqVX>"
+hot = true
 +++
 {% chat(speaker="jim") %}
 I have a wsl machine with nvidia gpu. Guide me run gpt-oss-20b with vllm

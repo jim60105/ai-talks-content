@@ -12,6 +12,7 @@ providers = [ "Felo Search" ]
 [extra]
 withAI = "<https://felo.ai/search/a7Q4bgctHZHGEGm5APQ8vj?invite=dOLYGeJyZJqVX>"
 featured = true
+hot = true
 +++
 {% alert(edit=true) %}
 這份做來送給我的同事參考，希望他們都能把這套用起來！😀

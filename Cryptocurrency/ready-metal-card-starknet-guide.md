@@ -12,6 +12,7 @@ providers = [ "ChatGPT" ]
 [extra]
 withAI = "<https://chatgpt.com/share/68ce7802-f13c-8005-99de-7e232493e0d0>"
 disclaimer = "所有資訊內容僅供使用者作為參考之用途，不構成任何個人之意見或判斷，亦不構成任何投資、法律建議，本人亦不保證 AI 產生之各項資訊內容之完整性、即時性及正確性。"
+hot = true
 +++
 
 {% alert(edit=true) %}
