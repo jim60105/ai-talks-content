@@ -2,7 +2,7 @@
 title = "使用 Dockerfile 建置專案並導出編譯檔案的優勢"
 description = "解析為何在 CI/CD 流程中以 Dockerfile 建置專案並利用 --output 導出編譯檔案，能提升環境一致性、自動化與部署效率。"
 date = "2024-12-26T23:11:20Z"
-updated = "2025-07-25T14:40:22.581Z"
+updated = "2025-11-14T09:43:21.578Z"
 draft = false
 
 [taxonomies]
@@ -11,6 +11,10 @@ providers = [ "Felo Search" ]
 
 [extra]
 withAI = "<https://felo.ai/search/GcewVfEAvuidgSQeJeSZXP?invite=dOLYGeJyZJqVX>"
+archive = """
+這篇文章已更新重寫至我的技術部落格
+
+👉 <a href="https://xn--jgy.tw/Container/multi-stage-containerfile-cicd/">擺脫 CI/CD 廠商鎖定 (Vendor Lock-in) —— 以 Containerfile 實現跨平台流程 - 琳的備忘手札</a>"""
 +++
 {% alert(edit=true) %}
 有同事問我，為什麼我的 CI 是在 Containerfile 裡建置，而不是直接寫在 CI yml 中於 runner 上直接建置 (那是個不會產出 container image 的專案)，這跟一般做法不太一樣。
