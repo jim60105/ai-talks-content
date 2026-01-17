@@ -67,7 +67,7 @@ Git 提供數種機制來處理換行符轉換：
 
 在專案的根目錄下建立或修改 `.gitattributes` 檔案，加入以下內容：
 
-```gitattributes
+```
 # 自動偵測文字檔，並在 checkout 時強制使用 LF 換行符
 * text=auto eol=lf
 ```
@@ -120,7 +120,7 @@ git commit -m "正規化所有檔案的換行符"
 {% alert(edit=true) %}
 我最後使用
 
-```gitignore
+```toml
 [core]
     autocrlf = input
     safecrlf = warn

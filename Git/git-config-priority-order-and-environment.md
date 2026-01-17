@@ -150,7 +150,7 @@ Git 在執行時會由低至高讀取所有層級的設定檔，並將它們合�
 
 * **範例**: 在您的 `~/.gitconfig` 中加入以下設定：
 
-    ```gitconfig
+    ```toml
     [user]
         name = Your Personal Name
         email = personal@example.com
@@ -163,7 +163,7 @@ Git 在執行時會由低至高讀取所有層級的設定檔，並將它們合�
 
     然後在 `~/.gitconfig-work` 檔案中定義工作專用的設定：
 
-    ```gitconfig
+    ```toml
     # ~/.gitconfig-work
     [user]
         name = Your Work Name
