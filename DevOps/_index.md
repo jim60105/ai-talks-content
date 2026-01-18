@@ -1,6 +1,8 @@
 +++
 title = "DevOps"
 
+description = "DevOps 實務經驗與工具討論，包含 Azure DevOps Pipeline 的 Job、Step、Stage 執行機制、YAML Pipeline 權限安全設定、GitHub README 與授權檔案分離管理等主題。"
+
 # A draft section is only loaded if the `--drafts` flag is passed to `zola build`, `zola serve` or `zola check`.
 draft = false
 

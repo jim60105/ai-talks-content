@@ -1,6 +1,8 @@
 +++
 title = "Backend"
 
+description = "後端開發討論與經驗分享，包含 Kotlin 後端服務設計、服務層架構遷移策略、Repository Pattern 實作、Unit of Work 模式、ORM 使用等後端開發議題。"
+
 # A draft section is only loaded if the `--drafts` flag is passed to `zola build`, `zola serve` or `zola check`.
 draft = false
 

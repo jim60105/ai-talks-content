@@ -1,6 +1,8 @@
 +++
 title = "AI"
 
+description = "AI 工具使用心得與討論，包含 AI 程式碼工具定價比較、大型語言模型選擇建議、AI 協作實務經驗、提示工程技巧、開源授權探討、MCP 整合、深度學習應用等主題。"
+
 # A draft section is only loaded if the `--drafts` flag is passed to `zola build`, `zola serve` or `zola check`.
 draft = false
 

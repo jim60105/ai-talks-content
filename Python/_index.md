@@ -1,6 +1,8 @@
 +++
 title = "Python"
 
+description = "Python 開發技術與工具使用討論，包含 Python 偵測 Linux 容器執行環境方法、__init__.py 與 Namespace Package 指南、靜態強型別與 Type Hints、uv sync 指令參數使用、VSCode Python Formatter Black 設定等主題。"
+
 # A draft section is only loaded if the `--drafts` flag is passed to `zola build`, `zola serve` or `zola check`.
 draft = false
 

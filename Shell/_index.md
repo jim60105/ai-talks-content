@@ -1,6 +1,8 @@
 +++
 title = "Shell"
 
+description = "Shell 指令稿開發與命令列工具使用，包含 AI 友善命令列文件撰寫、除錯訊息輸出至 stderr 最佳實踐、Linux CLI 影像相似度比對工具、zsh globbing 與關聯陣列等主題。"
+
 # A draft section is only loaded if the `--drafts` flag is passed to `zola build`, `zola serve` or `zola check`.
 draft = false
 

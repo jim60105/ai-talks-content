@@ -1,6 +1,8 @@
 +++
 title = "SystemAdmin"
 
+description = "系統管理實務經驗與工具使用，包含離線網路環境設定、apt lists vs cache 目錄說明、chezmoi 條件式檔案與主機名稱設定、devcontainer 同步 dotfiles、KDE Plasma 設定備份轉移、SSL 憑證匯入信任、rpm-ostree 狀態儲存等主題。"
+
 # A draft section is only loaded if the `--drafts` flag is passed to `zola build`, `zola serve` or `zola check`.
 draft = false
 

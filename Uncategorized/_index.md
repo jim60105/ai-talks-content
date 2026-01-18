@@ -1,6 +1,8 @@
 +++
 title = "Uncategorized"
 
+description = "尚未分類的討論與雜記。"
+
 # A draft section is only loaded if the `--drafts` flag is passed to `zola build`, `zola serve` or `zola check`.
 draft = false
 

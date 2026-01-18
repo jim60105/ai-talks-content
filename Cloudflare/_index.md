@@ -1,6 +1,8 @@
 +++
 title = "Cloudflare"
 
+description = "Cloudflare 服務使用經驗與問題探討，包含 AdGuard 與 Cloudflare Turnstile 錯誤排解、Cloudflare 隱私權政策分析、使用者體驗評估與替代方案等主題。"
+
 # A draft section is only loaded if the `--drafts` flag is passed to `zola build`, `zola serve` or `zola check`.
 draft = false
 
