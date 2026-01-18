@@ -1,7 +1,7 @@
 +++
 title = "Database"
 
-description = "資料庫技術討論與選型建議，包含 CouchDB、Couchbase 與 MongoDB 的本地部署開源方案比較、NoSQL 資料庫選擇考量等主題。"
+description = "資料庫技術討論、NoSQL 資料庫選型與使用經驗。"
 
 # A draft section is only loaded if the `--drafts` flag is passed to `zola build`, `zola serve` or `zola check`.
 draft = false

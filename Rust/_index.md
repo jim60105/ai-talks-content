@@ -1,7 +1,7 @@
 +++
 title = "Rust"
 
-description = "Rust 程式語言開發經驗與問題排解，包含 Rust CIFS 複製權限錯誤解決方案、程式碼覆蓋率工具 cargo-llvm-cov vs cargo-tarpaulin 比較、tempdir 並行測試唯一性衝突等主題。"
+description = "Rust 程式語言開發經驗、測試工具與問題排解。"
 
 # A draft section is only loaded if the `--drafts` flag is passed to `zola build`, `zola serve` or `zola check`.
 draft = false

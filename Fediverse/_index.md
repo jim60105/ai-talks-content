@@ -1,7 +1,7 @@
 +++
 title = "Fediverse"
 
-description = "Fediverse 聯邦宇宙社群平台討論，包含 Mastodon 站點選擇指南、Fediverse vs Twitter 與 Threads 比較、去中心化社交網路使用經驗等主題。"
+description = "Fediverse 去中心化社交網路平台使用經驗與討論。"
 
 # A draft section is only loaded if the `--drafts` flag is passed to `zola build`, `zola serve` or `zola check`.
 draft = false

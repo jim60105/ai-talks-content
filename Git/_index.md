@@ -1,7 +1,7 @@
 +++
 title = "Git"
 
-description = "Git 版本控制使用技巧與進階操作，包含 Git Bare Repository USB 離線程式碼同步、Git 設定優先順序與環境變數、資料夾歷史記錄拆分至子模組、Linux Git 換行字元設定、子模組切換至 Fork 等主題。"
+description = "Git 版本控制進階操作、子模組管理與跨平台設定。"
 
 # A draft section is only loaded if the `--drafts` flag is passed to `zola build`, `zola serve` or `zola check`.
 draft = false

@@ -1,7 +1,7 @@
 +++
 title = "Frontend"
 
-description = "前端開發技術討論與實務經驗，包含 Google Fonts API 最佳化、HTTP GET/POST 安全性與 RESTful 設計、JavaScript iframe 偵測與跨視窗通訊、pnpm vs npm 優勢比較、Web 字型載入效能等主題。"
+description = "前端開發技術、Web API 最佳化與套件管理工具使用。"
 
 # A draft section is only loaded if the `--drafts` flag is passed to `zola build`, `zola serve` or `zola check`.
 draft = false

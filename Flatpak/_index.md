@@ -1,7 +1,7 @@
 +++
 title = "Flatpak"
 
-description = "Flatpak 套件管理器使用經驗，包含 Flatpak 讀取系統行程權限設定、Snap 與 Flatpak 差異比較、Linux 套件管理器選擇等主題。"
+description = "Flatpak 套件管理器使用、權限設定與 Linux 套件管理。"
 
 # A draft section is only loaded if the `--drafts` flag is passed to `zola build`, `zola serve` or `zola check`.
 draft = false

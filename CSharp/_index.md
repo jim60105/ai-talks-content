@@ -1,7 +1,7 @@
 +++
 title = "CSharp"
 
-description = "C# 開發經驗與問題排解，包含 Discord.Net 函式庫全球化不變模式問題修正、.NET 開發實務經驗等主題。"
+description = "C# 與 .NET 開發實務經驗與問題排解。"
 
 # A draft section is only loaded if the `--drafts` flag is passed to `zola build`, `zola serve` or `zola check`.
 draft = false
