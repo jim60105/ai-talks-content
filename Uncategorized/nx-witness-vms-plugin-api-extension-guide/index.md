@@ -44,6 +44,11 @@ With this info, I can tailor the guide to your specific goals.
 
 ## 架構概述 (Nx Witness VMS 平台架構)
 
+<figure>
+{{ image(url="architecture.png", alt="架構概述資訊圖表") }}
+<figcaption>Nx Witness VMS 採用 Client-Server Hive 架構，允許多伺服器與用戶端協同工作。</figcaption>
+</figure>
+
 Nx Witness VMS 採用獨特的 Client-Server Hive 架構，由伺服器端與多種用戶端組成[^41]。核心是 `Nx Media Server` 伺服器應用程式，負責裝置探索、影片錄製與資料管理；而桌面用戶端、行動裝置 app、Web 管理介面以及 Nx Cloud 雲端入口則提供直觀的 GUI 供操作人員存取與管理系統。一個 **Nx 系統 (System)** 可以包含多部伺服器（預設每部伺服器建議最多連接 128 路攝影機），各伺服器共同同步管理裝置清單、用戶和設定資料，形成 **叢集 (Hive)** 架構。伺服器主要任務包括：接收網路攝影機串流、錄影存檔、執行事件偵測與影片分析（如移動偵測）、維護用戶權限、處理事件及與硬體裝置（I/O 模組、門禁等）互動。用戶端則負責即時預覽、回放錄影，以及系統和攝影機管理。此外 Nx 提供 **Nx Cloud** 平臺（可選），用於遠端存取及多系統集中管理。整體而言，Nx Witness VMS 架構簡潔可擴充，允許開發人員透過伺服器外掛模組或開放 `API` 進行深度整合。
 
 **平臺組成元件：**
