@@ -15,7 +15,7 @@ banner = "preview.png"
 
   [extra.preview]
   withAI = true
-  url = "https://gemini.google.com/share/aca10da3fc33"
+  url = "https://gemini.google.com/share/7ef232ff8eda"
   description = "Made with Nano Banana Pro by Gemini 3"
 +++
 {% chat(speaker="jim") %}
