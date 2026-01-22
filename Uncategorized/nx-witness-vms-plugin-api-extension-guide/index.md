@@ -2,7 +2,7 @@
 title = "Nx Witness VMS 客製化開發指南：SDK、API 整合與跨平台部署完整實踐"
 description = "深入 Nx Witness VMS 外掛程式開發技術，涵蓋 Metadata、Video Source、Storage 三大 C++ SDK 應用、RESTful API 整合、嵌入式網頁 UI 擴充，以及 Windows/Linux 環境下的完整建構與授權部署流程，助你打造高度客製化的影像管理系統。"
 date = "2026-01-19T03:19:57Z"
-updated = "2026-01-19T07:46:39.665Z"
+updated = "2026-01-22T02:17:53.673Z"
 draft = false
 
 [taxonomies]
@@ -251,6 +251,10 @@ Nx 提供多種方式擴充其 **桌面用戶端 UI** ，開發團隊可依需�
 - Network Optix 支援知識庫與開發者論壇 - 外掛程式開發 Q&A、Cloud Relay 使用方式等[^25][^45]。
 
 以上連結內容詳載了本文提及的技術要點，可供延伸閱讀與實作參考。透過充分利用這些資源，您的團隊將能順利地為 Nx Witness VMS 開發出功能強大且量身定制的外掛程式與 UI 擴充。祝開發過程順利！
+
+{% alert(edit=true) %}
+下一步： 在 [Nx Meta 開發者入口網站](https://meta.nxvms.com/) 註冊帳號，探索官方開發者資源！
+{% end %}
 
 [^3]: [GitHub - networkoptix/nx_open_integrations: Network Optix Meta Video Management Platform open source integration examples - the source code and specifications which show how to integrate a third-party solution with the Nx Meta Video Management Platform (VMP) and thus all Powered-By-Nx products, including Nx Video Management System (VMS).](https://github.com/networkoptix/nx_open_integrations#:~:text=Introduction)
 [^4]: [The Server Plugin SDK (C++) - Network Optix](https://support.networkoptix.com/hc/en-us/articles/32766542038423-The-Server-Plugin-SDK-C#:~:text=Storage%20SDK)
