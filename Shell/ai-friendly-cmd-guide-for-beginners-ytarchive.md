@@ -11,6 +11,9 @@ providers = [ "Felo Search" ]
 
 [extra]
 withAI = "<https://felo.ai/search/6XFWRFWZu5qLtDqRUS5Ejs?invite=dOLYGeJyZJqVX>"
+archive = """
+ytarchive 已死，作者說的:  
+<https://github.com/Kethsar/ytarchive/issues/272#issuecomment-3761037556>"""
 +++
 {% alert(edit=true) %}
 身為一個資訊專業人員，我常會被網友詢問如本文範例的入門電腦操作問題。
